@@ -1,0 +1,3053 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<html b:css='false' b:layoutsVersion='3' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+      <meta content='ie=edge' http-equiv='X-UA-Compatible'/>
+      <meta charset='UTF-8'/>
+      <meta content='width=device-width, initial-scale=1.0' name='viewport'/>
+  
+  <title><data:view.title.escaped/></title>
+      <meta expr:content='&quot;text/html; charset=&quot; + data:blog.encoding' http-equiv='Content-Type'/>
+      <meta content='blogger' name='generator'/>
+      <link expr:href='data:blog.blogspotFaviconUrl' rel='icon' type='image/x-icon'/>
+      <link expr:href='data:blog.blogspotFaviconUrl' rel='icon' sizes='32x32'/>
+      <link expr:href='data:blog.blogspotFaviconUrl' rel='icon' sizes='100x100'/>
+      <link expr:href='data:blog.blogspotFaviconUrl' rel='apple-touch-icon'/>
+      <meta expr:content='data:blog.blogspotFaviconUrl' name='msapplication-TileImage'/>
+      <link expr:href='data:blog.url' hreflang='x-default' rel='alternate'/>
+      <link expr:href='data:view.url.canonical' rel='canonical'/>
+      <data:blog.feedLinks/><data:blog.meTag/>
+      <meta expr:content='data:view.description.escaped' name='description'/>
+   
+      <b:if cond='data:blog.pageType == &quot;index&quot;'>
+      <b:if cond='data:blog.searchLabel'>
+      <meta content='noindex' name='robots'/>
+      </b:if>
+      </b:if>
+      <b:if cond='data:blog.pageType == &quot;archive&quot;'>
+      <meta content='noindex' name='robots'/>
+      </b:if>
+      <b:if cond='!data:view.isSearch and !data:view.isLabelSearch'>
+      <meta content='index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1' name='robots'/>
+      </b:if>
+      <b:if cond='data:view.isHomepage'>
+        <meta content='website' property='og:type'/>
+      </b:if>
+      <b:if cond='data:view.isSingleItem'>
+        <meta content='article' property='og:type'/>
+      </b:if>
+      <b:if cond='data:view.isMultipleItems and not data:view.isHomepage'>
+        <meta content='object' property='og:type'/>
+      </b:if>
+      <meta expr:content='data:view.title.escaped' property='og:title'/>
+      <meta expr:content='data:blog.url.canonical' property='og:url'/>
+      <meta expr:content='data:view.description.escaped' property='og:description'/>
+      <meta expr:content='data:blog.title.escaped' property='og:site_name'/>
+      <b:tag cond='data:view.isMultipleItems and data:widgets.Blog.first.posts[0].featuredImage' expr:content='data:widgets.Blog.first.posts[0].featuredImage' name='meta' property='og:image'/>
+      <b:if cond='data:view.featuredImage'>
+        <meta expr:content='data:view.featuredImage' property='og:image'/>
+        <meta expr:content='data:view.featuredImage' name='twitter:image'/>
+      </b:if>
+       
+       <b:if cond='data:view.isPost'>
+           <meta expr:content='data:blog.pageName' property='og:title'/>
+       </b:if>
+       <b:if cond='data:blog.url == data:blog.homepageUrl'>
+           <meta expr:content='data:blog.title' name='keywords'/>
+       </b:if>
+       <b:if cond='data:view.isPost'>
+           <meta expr:content='data:blog.pageName' name='keywords'/>
+       </b:if>
+      <link expr:href='data:blog.url' hreflang='en' rel='alternate'/>
+      <meta content='summary_large_image' name='twitter:card'/>
+      <meta expr:content='data:view.title.escaped' name='twitter:title'/>
+      <meta expr:content='data:blog.url.canonical' name='twitter:domain'/>
+      <meta expr:content='data:view.description.escaped' name='twitter:description'/>
+      <meta expr:content='data:view.description.escaped' name='twitter:creator'/>
+      <meta content='en_US' property='og:locale'/>
+      <meta content='en_GB' property='og:locale:alternate'/>
+      <meta content='id_ID' property='og:locale:alternate'/>
+      <b:if cond='data:view.isHomepage'>
+        <script type='application/ld+json'>{&quot;@context&quot;:&quot;http://schema.org&quot;,&quot;@type&quot;:&quot;WebSite&quot;,&quot;name&quot;:&quot;<data:view.title.escaped/>&quot;,&quot;url&quot;:&quot;<data:view.url.canonical/>&quot;,&quot;potentialAction&quot;:{&quot;@type&quot;:&quot;SearchAction&quot;,&quot;target&quot;:&quot;<data:view.url.canonical/>search?q={search_term_string}&quot;,&quot;query-input&quot;:&quot;required name=search_term_string&quot;}}</script>
+      </b:if>
+<link href='//1.bp.blogspot.com' rel='dns-prefetch'/> <link href='//28.2bp.blogspot.com' rel='dns-prefetch'/> <link href='//3.bp.blogspot.com' rel='dns-prefetch'/> <link href='//4.bp.blogspot.com' rel='dns-prefetch'/> <link href='//2.bp.blogspot.com' rel='dns-prefetch'/> <link href='//www.blogger.com' rel='dns-prefetch'/>
+<link href='//blogger.googleusercontent.com' rel='dns-prefetch'/><link href='//websitedevelopersofficial.github.io' rel='dns-prefetch'/>
+<link href='//github.com' rel='dns-prefetch'/><link href='//github.io' rel='dns-prefetch'/>
+<script src='https://code.jquery.com/jquery-3.5.1.min.js'/>
+  
+  <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet'/>
+  
+  <b:if cond='!data:view.isLayoutMode'>
+     <b:skin><![CDATA[
+/*
+-----------------------------------------------
+Blogger Template Style
+Name:        Custom Theme
+Version:     1.1.9.V
+----------------------------------------------- */
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html{
+scroll-behavior: smooth;
+background: linear-gradient(45deg,rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 86%, rgba(255, 182, 193, 1) 100%);
+}
+body {
+font-family: 'poppins', sans-serif;
+}
+
+/* Intro text section */
+.intro-text {
+  text-align: center;
+  max-width: 900px;
+  margin: 40px auto 20px auto;
+  padding: 0 20px;
+}
+.intro-text h2 {
+  font-size: 33px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #222;
+}
+.intro-text p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Tools Grid section */
+
+
+
+.pdf-tools-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 24px;
+  padding: 40px 20px;
+  max-width: 100%;
+  margin: auto;
+}
+
+.tool-box {
+  border: 1px solid #d1c3c3;
+  background: #fff;
+  border-radius: 12px;
+  padding: 24px;
+  text-align: left;
+  text-decoration: none;
+  color: #111;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  min-height: 240px;
+}
+
+.tool-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.tool-box img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 16px;
+}
+
+.tool-box h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.tool-box p {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.6;
+}
+
+/* PDF Filters Styles */
+.pdf-filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin: 30px auto;
+  padding: 0 20px;
+  max-width: 900px;
+}
+
+.filter-btn {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 1px solid #e0e0e0;
+  background: #f8f8f8;
+  color: #555;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.filter-btn:hover {
+  background: #e0e0e0;
+}
+
+.filter-btn.active {
+  background: #009688;
+  color: white;
+  border-color: #009688;
+}
+
+/* For the filter buttons version */
+.filter-btn {
+  font-weight: bold;
+}
+
+/* OR if you're using plain text filters */
+.pdf-filters {
+  font-weight: bold;
+}
+
+/* Tool search box */
+.pdf-tool-search-wrap {
+  max-width: 480px;
+  margin: 0 auto 10px auto;
+  padding: 0 20px;
+  position: relative;
+}
+.pdf-tool-search {
+  width: 100%;
+  padding: 12px 44px 12px 18px;
+  border-radius: 24px;
+  border: 1px solid #e0e0e0;
+  background: #f8f8f8;
+  color: #333;
+  font-size: 15px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+.pdf-tool-search:focus {
+  border-color: #009688;
+  background: #fff;
+  box-shadow: 0 0 0 3px rgba(0,150,136,0.12);
+}
+.pdf-tool-search-wrap::after {
+  content: "\f002";
+  font-family: FontAwesome;
+  position: absolute;
+  right: 38px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #999;
+  pointer-events: none;
+}
+.pdf-tool-no-results {
+  display: none;
+  text-align: center;
+  color: #777;
+  font-size: 15px;
+  padding: 30px 20px;
+}
+.pdf-tool-no-results.show {
+  display: block;
+}
+.tool-box-hidden {
+  display: none !important;
+}
+
+
+
+.tool-box p {
+  font-size: 14px;
+  color: #333;
+  background: linear-gradient(135deg, #e0faf6, #c7efe9);
+  padding: 10px 12px;
+  border-radius: 10px;
+  margin-top: 10px;
+  font-weight: 500;
+  line-height: 1.6;
+  border-left: 4px solid #009688;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+  transition: 0.3s ease;
+}
+.tool-box:hover p {
+  background: linear-gradient(135deg, #d2f7f0, #bdf0e6);
+  border-left-color: #00bfa5;
+}
+
+
+/* Title highlight underline */
+.tool-box h3 {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 4px;
+}
+.tool-box h3::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 6px;
+  background: #ffcc80;
+  border-radius: 4px;
+  z-index: -1;
+}
+
+/* =================================================================
+   PDF TOOL CATEGORY SECTIONS (Blogger Layout-editable Link List widgets)
+   Each category below (Organize PDF, Convert PDF, etc.) is its own
+   Link List widget, edited from Blogger Dashboard > Theme > Customize
+   > Layout -- these styles just turn the plain link list into cards.
+   ================================================================= */
+.pdf-tool-category {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 20px 0 20px;
+}
+.pdf-cat-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #222;
+  margin: 30px 0 16px 0;
+  padding-left: 4px;
+  border-left: 4px solid #009688;
+  padding-left: 10px;
+}
+.pdf-tools-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  list-style: none;
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+.pdf-tools-list li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.pdf-tools-list li a.tool-box {
+  border: 1px solid #d1c3c3;
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: left;
+  text-decoration: none;
+  color: #111;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 70px;
+}
+.pdf-tools-list li a.tool-box:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+.pdf-tools-list .tool-icon {
+  flex: 0 0 auto;
+  font-size: 22px;
+  color: #009688;
+  background: #e0faf6;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pdf-tools-list li a.tool-box h3 {
+  font-size: 16px;
+  margin: 0;
+  color: #222;
+  padding-bottom: 0;
+}
+.pdf-tools-list li a.tool-box h3::after {
+  display: none;
+}
+
+/* =================================================================
+   GENERAL TOOLS DIRECTORY (Encoding & Decoding, Data Conversion,
+   Generators, Website & SEO, AI Generators, Trending Tools, etc.)
+   ================================================================= */
+.tool-dir-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 20px 0 20px;
+}
+.tool-dir-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #222;
+  margin: 30px 0 16px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.tool-dir-title .fa {
+  color: #009688;
+  font-size: 18px;
+}
+.tool-dir-title .tool-dir-arrow {
+  color: #009688;
+  font-weight: 400;
+  font-size: 16px;
+}
+.tool-dir-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  margin-bottom: 10px;
+}
+.tool-dir-card {
+  border: 1px solid #e0e0e0;
+  background: #fff;
+  border-radius: 12px;
+  padding: 18px;
+  text-align: left;
+  text-decoration: none;
+  color: #111;
+  display: block;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.tool-dir-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+.tool-dir-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 8px;
+  background: #e0faf6;
+  color: #009688;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.tool-dir-card h3 {
+  font-size: 16px;
+  margin: 0 0 6px 0;
+  color: #222;
+}
+.tool-dir-card p {
+  font-size: 13px;
+  color: #666;
+  line-height: 1.5;
+  margin: 0 0 10px 0;
+}
+.tool-dir-card .tool-dir-open {
+  font-size: 13px;
+  font-weight: 600;
+  color: #009688;
+}
+/* Hide default "Search This Blog" box and "Powered by Blogger / Report Abuse" attribution */
+.BlogSearch,
+.Attribution,
+#BlogSearch1,
+.widget.BlogSearch,
+.widget.Attribution {
+  display: none !important;
+}
+]]></b:skin>
+  </b:if>
+  <b:if cond='data:view.isLayoutMode'>  
+     <b:template-skin>
+
+<![CDATA[
+body#layout,body#layout .add_widget{position:relative}
+
+body#layout{width:800px;margin:0;float:left;padding:10px}
+body#layout .cd-popup,body#layout .layout-widget-description,body#layout .searchbar,body#layout .titlehome{display:none}
+body#layout div.section{margin:0 5px 10px!important;padding:16px 16px 18px!important;border:5px solid #fff}body#layout .draggable-widget .widget-wrap2{background-color:#597ea5;}body#layout .visibility .layout-widget-state.visible{background-color:#fbf8bf;padding:5px;vertical-align:middle;-webkit-border-radius:50px;-moz-border-radius:50px;border-radius:50px}body#layout div.layout-title{font-size:13px;padding-top:5px}body#layout .draggable-widget .widget-wrap3{background:#f8f8f8!important}body#layout .locked-widget .widget-content{margin:0}body#layout .widget-content{-webkit-border-radius:50px;-moz-border-radius:50px;border-radius:3px;background:#fff;margin-left:10px}body#layout .add_widget{border:0;padding:10px;-webkit-border-radius:50px;-moz-border-radius:50px;border-radius:50px;background:#f1f1f1}body#layout .add_widget a{font-size:14px;cursor:pointer}body#layout .section h4{font-size:14px;margin:0}
+
+body#layout #messagebox, body#layout #messagebox1{
+background-color:#fff9d2;
+}
+
+body#layout #messagebox h4, body#layout #messagebox1 h4{
+font-size: 21px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+]]>
+       </b:template-skin>
+   </b:if>
+
+  
+  <b:if cond='data:view.isSingleItem'>
+    <style>
+      div#blog-pager {
+    display: none;
+}
+      #Blog1 {
+    padding: 1em;
+    max-width: 1200px;
+    margin: auto;
+    line-height: 1.6;
+}
+      .post-content li {
+    margin-left: 2em;
+}
+      h2 {
+    background: unset;
+    border: none;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+    </style>
+  </b:if>
+  
+  <b:if cond='data:blog.pageType == &quot;item&quot;'>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .outer-wrapper {
+      flex: 1;
+    }
+
+    .footer-bottom {
+      margin-top: auto;
+    }
+  </style>
+</b:if>
+
+   </head>
+   <body>
+     <style>
+.header-main{
+border-bottom: 1px solid #878787;
+padding:0.5em 1em;
+background-color: #fff;
+position:sticky;
+top:0;
+z-index:9;
+display:flex;
+align-items: center;
+box-shadow: 0 0 30px -20px #7e7c7c;
+}
+
+.header-area{
+display:flex;
+align-items: center;
+width:98%;
+margin:auto;
+}
+
+
+.header-main #Header1{
+max-width:300px;
+}
+
+
+.header-main h1{
+font-size:33px;
+font-weight:500;
+}
+
+.header-main #description{
+display:none;
+}
+
+.header-main img{
+width:100%;
+max-width:300px;
+margin:auto;
+height:35px;
+}
+
+.header-main .LinkList{
+width:100%;
+}
+
+.header-main .LinkList h2{
+display:none;
+}
+
+.header-main #menu1{
+list-style:none;
+display:flex;
+justify-content: end;
+}
+
+.header-main li {
+       font-weight: bold;
+padding:15px;
+font-size: 17px;
+}
+
+#sub-menu{
+    position: absolute;
+    background: #fff;
+    padding: 0;
+    width: 150px;
+    margin-top: 1em;
+list-style:none;
+display:none;
+    box-shadow: -3px 20px 25px #ededed;
+}
+
+.header-main #sub-menu li{
+border-bottom: 1px solid #ddd;
+}
+
+
+.header-main a{
+font-size: large;       
+text-decoration: none;
+color:#000;
+display:block;
+}
+
+.header-main li:hover &gt; a{
+color:rgb(255, 49, 100);
+}
+
+#menu1 li a:not(:only-child):after{
+    padding-left: 7px;
+    content: &#39;\f107&#39;;
+    font-family: &#39;FontAwesome&#39;;
+	float:right;
+	clear:both;
+}
+
+.header-main .menu-icon, .header-main .nav-head, .header-main .phone, .menu-close{
+display:none;
+}
+
+.header-main .fa-search{
+font-size:30px;
+display:block;
+margin-right:21px;
+}
+
+.header-main .fa-bars, .header-main .fa-search {
+    padding: 10px;
+    cursor:pointer;
+}
+    
+#search-box{
+position:fixed;
+top:5px;
+right:-100%;
+z-index:9;
+align-items: center;
+width:800px;
+max-width:100%;
+color:#262626;
+background-color:#fff;
+border-radius:3px;
+padding:0.5em;
+padding-right:1em;
+margin-left: auto;
+display:flex;
+transition: 0.5s;
+box-shadow: 0 0 30px -20px #7e7c7c;
+}
+
+#search-box input{
+height:40px;
+border:1px solid #e6eaea;
+align-items:center;
+padding: 2px 12px 2px 20px;
+width: 100%;
+outline:none;
+}
+
+
+.closebtn{
+font-size:40px;
+color:#6e7676;
+line-height:0;
+margin-bottom:7px;
+margin-left:7px;
+cursor:pointer;
+}
+
+
+
+@media screen and (max-width: 800px){
+
+.header-main .menu-icon{
+font-size:30px;
+display:block;
+font-weight:500;
+cursor:pointer;
+}
+
+.header-main .fa-search{
+margin:0;
+cursor:pointer;
+}
+
+.header-main .nav-head{
+display:block;
+padding:1em;
+}
+
+.header-main .menu-close{
+	font-size: 31px;
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    text-align: center;
+    cursor: pointer;
+    background: #0096884a;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 3px 5px #f9efef;
+    color: #009688;
+}
+
+
+.header-area{
+display:block;
+width:100%;
+}
+
+.header-main #Header1{
+width:100%;
+}
+
+.header-main #Header1{
+text-align:center;
+}
+
+.header-main img{
+width:unset;
+height:35px;
+margin: 0;
+}
+
+.header-main .LinkList{
+background-color:#fcfcfc;
+width:300px;
+position:fixed;
+top:0;
+left:-500px;
+z-index:3;
+height:100%;
+transition: 0.5s;
+overflow-y:auto;
+box-shadow: 0px 0px 35px #9f9f9f;
+}
+
+.header-main #menu1{
+display:block;
+padding:0;
+}
+
+.header-main #sub-menu{
+position:relative;
+width:100%;
+box-shadow:none;
+background:unset;
+}
+
+.header-main #sub-menu li a:before{
+    content: &quot;\f105&quot;;
+    font-family: &quot;FontAwesome&quot;;
+    font-weight: 900;
+    font-size: 12px;
+    margin-right: 8px;
+}
+
+.header-main #menu1 &gt; li{
+border-top: 1px solid #f3f3f3;
+}
+
+}
+
+
+
+@media screen and (min-width: 800px){
+.header-main #menu1 li:hover #sub-menu{
+display:block;
+}
+.header-main .LinkList{
+left:unset!important;
+}
+
+}
+</style>
+
+<header class='header-main' itemscope='itemscope' itemtype='https://schema.org/WPHeader' role='banner'>
+    
+    <b:section class='header-area' id='header-area'>
+      <b:widget id='Header1' locked='false' title='toolora (Header)' type='Header' version='1'>
+        <b:widget-settings>
+          <b:widget-setting name='displayUrl'>https://www.ilovepdf.com/img/ilovepdf.svg</b:widget-setting>
+          <b:widget-setting name='displayHeight'>76</b:widget-setting>
+          <b:widget-setting name='sectionWidth'>150</b:widget-setting>
+          <b:widget-setting name='useImage'>true</b:widget-setting>
+          <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
+          <b:widget-setting name='imagePlacement'>REPLACE</b:widget-setting>
+          <b:widget-setting name='displayWidth'>300</b:widget-setting>
+        </b:widget-settings>
+        <b:includable id='main'>
+
+  <b:if cond='data:useImage'>
+    <b:if cond='data:imagePlacement == &quot;BEHIND&quot;'>
+      <!--
+      Show image as background to text. You can't really calculate the width
+      reliably in JS because margins are not taken into account by any of
+      clientWidth, offsetWidth or scrollWidth, so we don't force a minimum
+      width if the user is using shrink to fit.
+      This results in a margin-width's worth of pixels being cropped. If the
+      user is not using shrink to fit then we expand the header.
+      -->
+      <b:if cond='data:mobile'>
+        <div id='header-inner'>
+          <div class='titlewrapper' style='background: transparent'>
+            <h1 class='title' style='background: transparent; border-width: 0px'>
+              <b:include name='title'/>
+            </h1>
+          </div>
+          <b:include name='description'/>
+        </div>
+      <b:else/>
+        <div expr:style='&quot;background-image: url(\&quot;&quot; + data:sourceUrl + &quot;\&quot;); &quot;                      + &quot;background-position: &quot;                      + data:backgroundPositionStyleStr + &quot;; &quot;                      + data:widthStyleStr                      + &quot;min-height: &quot; + data:height                      + &quot;_height: &quot; + data:height                      + &quot;background-repeat: no-repeat; &quot;' id='header-inner'>
+          <div class='titlewrapper' style='background: transparent'>
+            <h1 class='title' style='background: transparent; border-width: 0px'>
+              <b:include name='title'/>
+            </h1>
+          </div>
+          <b:include name='description'/>
+        </div>
+      </b:if>
+    <b:else/>
+      <!--Show the image only-->
+      <div id='header-inner'>
+        <a expr:href='data:blog.homepageUrl' style='display: block'>
+          <img expr:alt='data:title' expr:id='data:widget.instanceId + &quot;_headerimg&quot;' expr:src='data:sourceUrl' style='display: block'/>
+        </a>
+        <!--Show the description-->
+        <b:if cond='data:imagePlacement == &quot;BEFORE_DESCRIPTION&quot;'>
+          <b:include name='description'/>
+        </b:if>
+      </div>
+    </b:if>
+  <b:else/>
+    <!--No header image -->
+    <div id='header-inner'>
+      <div class='titlewrapper'>
+        <h1 class='title'>
+          <b:include name='title'/>
+        </h1>
+      </div>
+      <b:include name='description'/>
+    </div>
+  </b:if>
+</b:includable>
+        <b:includable id='description'>
+  <div class='descriptionwrapper'>
+    <p class='description'><span><data:description/></span></p>
+  </div>
+</b:includable>
+        <b:includable id='title'>
+  <b:tag cond='data:blog.url != data:blog.homepageUrl' expr:href='data:blog.homepageUrl' name='a'>
+    <data:title/>
+  </b:tag>
+</b:includable>
+      </b:widget>
+      <b:widget id='LinkList3' locked='false' title='Menu' type='LinkList' version='1'>
+        <b:widget-settings>
+          <b:widget-setting name='link-3'>https://</b:widget-setting>
+          <b:widget-setting name='sorting'>NONE</b:widget-setting>
+          <b:widget-setting name='link-4'>https://</b:widget-setting>
+          <b:widget-setting name='text-1'>About US</b:widget-setting>
+          <b:widget-setting name='link-1'>#</b:widget-setting>
+          <b:widget-setting name='text-0'>Home</b:widget-setting>
+          <b:widget-setting name='link-2'>#</b:widget-setting>
+          <b:widget-setting name='text-3'>Privacy Policy</b:widget-setting>
+          <b:widget-setting name='link-0'>/</b:widget-setting>
+          <b:widget-setting name='text-2'>Contact US</b:widget-setting>
+          <b:widget-setting name='text-4'>Terms</b:widget-setting>
+        </b:widget-settings>
+        <b:includable id='main'>
+
+<b:if cond='data:title != &quot;&quot;'><h2><data:title/></h2></b:if>
+ <div class='widget-content'>
+   
+     <span class='menu-close' onclick='menuoff()'>&#215;</span>
+   <!--
+   <div class='nav-head'>
+     <h1><data:blog.title/></h1>
+   </div>
+-->
+   <div id='dropmenu'>
+   <ul id='menu1' itemscope='' itemtype='http://schema.org/SiteNavigationElement'>
+     <b:loop values='data:links' var='link'>
+       <li><a expr:href='data:link.target'><data:link.name/></a></li>
+     </b:loop>
+   </ul>
+   </div>
+   <b:include name='quickedit'/>
+ </div>
+</b:includable>
+      </b:widget>
+      <b:widget id='BlogArchive1' locked='false' title='Blog Archive' type='BlogArchive'>
+        <b:widget-settings>
+          <b:widget-setting name='showStyle'>FLAT</b:widget-setting>
+          <b:widget-setting name='yearPattern'>yyyy</b:widget-setting>
+          <b:widget-setting name='showWeekEnd'>true</b:widget-setting>
+          <b:widget-setting name='monthPattern'>MMMM yyyy</b:widget-setting>
+          <b:widget-setting name='dayPattern'>MMM dd</b:widget-setting>
+          <b:widget-setting name='weekPattern'>MM/dd</b:widget-setting>
+          <b:widget-setting name='chronological'>false</b:widget-setting>
+          <b:widget-setting name='showPosts'>true</b:widget-setting>
+          <b:widget-setting name='frequency'>MONTHLY</b:widget-setting>
+        </b:widget-settings>
+        <b:includable id='main'>
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+  <div id='ArchiveList'>
+  <div expr:id='data:widget.instanceId + &quot;_ArchiveList&quot;'>
+    <b:include cond='data:style == &quot;HIERARCHY&quot;' data='data' name='interval'/>
+    <b:include cond='data:style == &quot;FLAT&quot;' data='data' name='flat'/>
+    <b:include cond='data:style == &quot;MENU&quot;' data='data' name='menu'/>
+  </div>
+  </div>
+  <b:include name='quickedit'/>
+  </div>
+</b:includable>
+        <b:includable id='flat' var='data'>
+  <ul class='flat'>
+    <b:loop values='data:data' var='i'>
+      <li class='archivedate'>
+        <a expr:href='data:i.url'><data:i.name/></a> (<data:i.post-count/>)
+      </li>
+    </b:loop>
+  </ul>
+</b:includable>
+        <b:includable id='interval' var='intervalData'>
+  <b:loop values='data:intervalData' var='interval'>
+    <ul class='hierarchy'>
+      <li expr:class='&quot;archivedate &quot; + data:interval.expclass'>
+        <b:include cond='data:interval.toggleId' data='interval' name='toggle'/>
+        <a class='post-count-link' expr:href='data:interval.url'>
+          <data:interval.name/>
+        </a>
+        <span class='post-count' dir='ltr'>(<data:interval.post-count/>)</span>
+        <b:include cond='data:interval.data' data='interval.data' name='interval'/>
+        <b:include cond='data:interval.posts' data='interval.posts' name='posts'/>
+      </li>
+    </ul>
+  </b:loop>
+</b:includable>
+        <b:includable id='menu' var='data'>
+  <select expr:id='data:widget.instanceId + &quot;_ArchiveMenu&quot;'>
+    <option value=''><data:title/></option>
+    <b:loop values='data:data' var='i'>
+      <option expr:value='data:i.url'><data:i.name/> (<data:i.post-count/>)</option>
+    </b:loop>
+  </select>
+</b:includable>
+        <b:includable id='posts' var='posts'>
+  <ul class='posts'>
+    <b:loop values='data:posts' var='post'>
+      <li><a expr:href='data:post.url'><data:post.title/></a></li>
+    </b:loop>
+  </ul>
+</b:includable>
+        <b:includable id='toggle' var='interval'>
+  <a class='toggle' href='javascript:void(0)'>
+    <span expr:class='&quot;zippy&quot; + (data:interval.expclass == &quot;expanded&quot; ? &quot; toggle-open&quot; : &quot;&quot;)'>
+      <b:if cond='data:interval.expclass == &quot;expanded&quot;'>
+        &#9660;&#160;
+      <b:elseif cond='data:blog.languageDirection == &quot;rtl&quot;'/>
+        &#9668;&#160;
+      <b:else/>
+        &#9658;&#160;
+      </b:if>
+    </span>
+  </a>
+</b:includable>
+      </b:widget>
+      <b:widget id='Label1' locked='false' title='Labels' type='Label'>
+        <b:widget-settings>
+          <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
+          <b:widget-setting name='display'>LIST</b:widget-setting>
+          <b:widget-setting name='selectedLabelsList'/>
+          <b:widget-setting name='showType'>ALL</b:widget-setting>
+          <b:widget-setting name='showFreqNumbers'>false</b:widget-setting>
+        </b:widget-settings>
+        <b:includable id='main'>
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2><data:title/></h2>
+  </b:if>
+  <div expr:class='&quot;widget-content &quot; + data:display + &quot;-label-widget-content&quot;'>
+    <b:if cond='data:display == &quot;list&quot;'>
+      <ul>
+        <b:loop values='data:labels' var='label'>
+          <li>
+            <b:if cond='data:blog.url == data:label.url'>
+              <span expr:dir='data:blog.languageDirection'><data:label.name/></span>
+            <b:else/>
+              <a expr:dir='data:blog.languageDirection' expr:href='data:label.url'><data:label.name/></a>
+            </b:if>
+            <b:if cond='data:showFreqNumbers'>
+              <span dir='ltr'>(<data:label.count/>)</span>
+            </b:if>
+          </li>
+        </b:loop>
+      </ul>
+    <b:else/>
+      <b:loop values='data:labels' var='label'>
+        <span expr:class='&quot;label-size label-size-&quot; + data:label.cssSize'>
+          <b:if cond='data:blog.url == data:label.url'>
+            <span expr:dir='data:blog.languageDirection'><data:label.name/></span>
+          <b:else/>
+            <a expr:dir='data:blog.languageDirection' expr:href='data:label.url'><data:label.name/></a>
+          </b:if>
+          <b:if cond='data:showFreqNumbers'>
+            <span class='label-count' dir='ltr'>(<data:label.count/>)</span>
+          </b:if>
+        </span>
+      </b:loop>
+    </b:if>
+    <b:include name='quickedit'/>
+  </div>
+</b:includable>
+      </b:widget>
+      <b:widget cond='data:view.isSingleItem and data:posts any (p =&gt; p.id != data:view.postId)' id='PopularPosts1' locked='false' title='' type='PopularPosts'>
+        <b:widget-settings>
+          <b:widget-setting name='numItemsToShow'>3</b:widget-setting>
+          <b:widget-setting name='showThumbnails'>true</b:widget-setting>
+          <b:widget-setting name='showSnippets'>true</b:widget-setting>
+          <b:widget-setting name='timeRange'>LAST_YEAR</b:widget-setting>
+        </b:widget-settings>
+        <b:includable id='main'>
+  <b:if cond='data:title != &quot;&quot;'><h2><data:title/></h2></b:if>
+  <div class='widget-content popular-posts'>
+    <ul>
+      <b:loop values='data:posts' var='post'>
+      <li>
+        <b:if cond='!data:showThumbnails'>
+          <b:if cond='!data:showSnippets'>
+            <!-- (1) No snippet/thumbnail -->
+            <a expr:href='data:post.href'><data:post.title/></a>
+          <b:else/>
+            <!-- (2) Show only snippets -->
+            <div class='item-title'><a expr:href='data:post.href'><data:post.title/></a></div>
+            <div class='item-snippet'><data:post.snippet/></div>
+          </b:if>
+        <b:else/>
+          <!-- (3) Show only thumbnails or (4) Snippets and thumbnails. -->
+          <div expr:class='data:showSnippets ? &quot;item-content&quot; : &quot;item-thumbnail-only&quot;'>
+            <b:if cond='data:post.featuredImage.isResizable or data:post.thumbnail'>
+              <div class='item-thumbnail'>
+                <a expr:href='data:post.href' target='_blank'>
+                  <b:with value='data:post.featuredImage.isResizable                                  ? resizeImage(data:post.featuredImage, 72, &quot;1:1&quot;)                                  : data:post.thumbnail' var='image'>
+                    <img alt='' border='0' expr:src='data:image'/>
+                  </b:with>
+                </a>
+              </div>
+            </b:if>
+            <div class='item-title'><a expr:href='data:post.href'><data:post.title/></a></div>
+            <b:if cond='data:showSnippets'>
+              <div class='item-snippet'><data:post.snippet/></div>
+            </b:if>
+          </div>
+          <div style='clear: both;'/>
+        </b:if>
+      </li>
+      </b:loop>
+    </ul>
+    <b:include name='quickedit'/>
+  </div>
+</b:includable>
+      </b:widget>
+      <b:widget cond='!data:view.isPost' id='PageList1' locked='false' title='' type='PageList'>
+        <b:widget-settings>
+          <b:widget-setting name='pageListJson'>{}</b:widget-setting>
+          <b:widget-setting name='homeTitle'>Home</b:widget-setting>
+        </b:widget-settings>
+        <b:includable id='main'>
+  <b:if cond='data:title != &quot;&quot;'><h2><data:title/></h2></b:if>
+  <div class='widget-content'>
+    <b:if cond='data:mobile'>
+      <select expr:id='data:widget.instanceId + &quot;_select&quot;'>
+        <b:if cond='data:showPlaceholder'>
+          <option disabled='disabled' hidden='hidden' value=''>
+            <b:attr cond='!data:hasCurrentPage' name='selected' value='selected'/>
+            <b:message name='messages.moveToPage'/>
+          </option>
+        </b:if>
+        <b:loop values='data:links' var='link'>
+          <option expr:value='data:link.href'>
+            <b:attr cond='data:link.isCurrentPage' name='selected' value='selected'/>
+            <data:link.title/>
+          </option>
+        </b:loop>
+      </select>
+      <span class='pagelist-arrow'>&amp;#9660;</span>
+    <b:else/>
+      <ul>
+        <b:loop values='data:links' var='link'>
+          <li>
+            <b:class cond='data:link.isCurrentPage' name='selected'/>
+            <a expr:href='data:link.href'><data:link.title/></a>
+          </li>
+        </b:loop>
+      </ul>
+    </b:if>
+    <b:include name='quickedit'/>
+  </div>
+</b:includable>
+      </b:widget>
+      <b:widget cond='data:view.isHomepage' id='FeaturedPost1' locked='false' title='' type='FeaturedPost'>
+        <b:widget-settings>
+          <b:widget-setting name='showSnippet'>true</b:widget-setting>
+          <b:widget-setting name='showPostTitle'>true</b:widget-setting>
+          <b:widget-setting name='postId'>0</b:widget-setting>
+          <b:widget-setting name='showFirstImage'>true</b:widget-setting>
+          <b:widget-setting name='useMostRecentPost'>true</b:widget-setting>
+        </b:widget-settings>
+        <b:includable id='main'>
+  <!-- Only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <b:include name='content'/>
+
+  <b:include name='quickedit'/>
+</b:includable>
+        <b:includable id='content'>
+  <div class='post-summary'>
+    <b:if cond='data:showPostTitle and data:postTitle != &quot;&quot;'>
+      <h3><a expr:href='data:postUrl'><data:postTitle/></a></h3>
+    </b:if>
+    <b:if cond='data:showSnippet and data:postSummary != &quot;&quot;'>
+      <p>
+        <data:postSummary/>
+      </p>
+    </b:if>
+    <b:if cond='data:showFirstImage and data:postFirstImage != &quot;&quot;'>
+      <img class='image' expr:src='data:postFirstImage'/>
+    </b:if>
+  </div>
+
+  <style type='text/css'>
+    .image {
+      width: 100%;
+    }
+  </style>
+</b:includable>
+      </b:widget>
+    </b:section>
+    
+  
+  <span class='menu-icon' onclick='menuon()'><i aria-hidden='true' class='fa fa-bars'/></span>
+  </header>
+
+     <b:if cond='data:view.isHomepage'>
+     <b:section id='hero-section'>
+       <b:widget id='HTML1' locked='false' title='' type='HTML'>
+         <b:widget-settings>
+           <b:widget-setting name='content'><![CDATA[<!-- Intro Text Section -->
+<div class="intro-text">
+  <h2>Every Online Tool You Need, All in One Place</h2>
+  <p>From PDFs and images to converters, generators, and SEO tools — everything you need is right here. 100% free, no sign-up, no downloads required.</p>
+</div>
+<!-- PDF Tool Search Box -->
+<div class="pdf-tool-search-wrap">
+  <input class="pdf-tool-search" id="pdf-tool-search" placeholder="Search for a tool (e.g. merge, compress, sign)..." type="text"/>
+</div>
+<!-- PDF Filters Section -->
+<div class="pdf-filters">
+  <button class="filter-btn active" data-filter="all">All</button>
+  <button class="filter-btn" data-filter="workflows">Organize PDF</button>
+  <button class="filter-btn" data-filter="optimize">Optimize PDF</button>
+  <button class="filter-btn" data-filter="convert">Convert PDF</button>
+  <button class="filter-btn" data-filter="edit">Edit PDF</button>
+  <button class="filter-btn" data-filter="security">PDF Security</button>
+  <button class="filter-btn" data-filter="view">View PDF</button>
+  <button class="filter-btn" data-filter="image">Image Tools</button>
+  <button class="filter-btn" data-filter="encoding-and-decoding">Encoding &amp; Decoding</button>
+  <button class="filter-btn" data-filter="torrent-and-hashing">Torrent &amp; Hashing</button>
+  <button class="filter-btn" data-filter="data-conversion-and-formatting">Data Conversion &amp; Formatting</button>
+  <button class="filter-btn" data-filter="generators">Generators</button>
+  <button class="filter-btn" data-filter="website-and-seo">Website &amp; SEO</button>
+  <button class="filter-btn" data-filter="ai-generators">Ai Generators</button>
+  <button class="filter-btn" data-filter="trending-tools">Trending Tools</button>
+</div>
+<p class="pdf-tool-no-results" id="pdf-tool-no-results">No tools matched your search. Try a different keyword.</p>
+<!-- The tool cards themselves are NOT hardcoded here anymore. Each one is
+     its own Link List widget in the sections below (Organize PDF, Optimize PDF,
+     Convert PDF, Edit PDF, PDF Security, View PDF, Image Tools). This is a Blogger
+     (Blogspot) theme -- go to Blogger Dashboard > Theme > Customize > Layout
+     to add, remove, rename or re-link any tool card. No coding required. -->]]></b:widget-setting>
+         </b:widget-settings>
+         <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  <b:include name='quickedit'/>
+</b:includable>
+       </b:widget>
+     </b:section>
+
+     <!-- ================= PDF TOOL CARDS (Blogger Layout-editable) =================
+          This is a Blogger (Blogspot) theme. Every tool card below is a Link List
+          widget, which means you manage it from Blogger Dashboard > Theme >
+          Customize > Layout, not by editing this XML/HTML.
+          In Layout, open any box below (e.g. "Organize PDF") and you'll see a
+          simple list of Name + Page Link pairs:
+            - Click "Add new link" to create a brand-new tool card (name = tool
+              title, link = the Blogger Page URL, e.g. /p/image-resize.html).
+            - Edit or delete existing lines the same way (that's how you fix or
+              add the page link for Merge PDF, Split PDF, etc.).
+            - Drag entries to reorder them.
+          Want a whole new category/section instead of adding to an existing one?
+          Scroll down to the "extra-tools-section" placeholder near the bottom of
+          the homepage area and click "Add a Gadget" there, then choose Link List. -->
+
+     <b:section class='pdf-tool-category' id='pdf-cat-workflows' preferred='true' showaddelement='yes'>
+       <b:widget id='LinkList20' locked='false' title='Organize PDF' type='LinkList' version='1'>
+         <b:widget-settings>
+           <b:widget-setting name='link-5'>/p/extract-pdf-pages.html</b:widget-setting>
+           <b:widget-setting name='link-6'>/p/rearrange-pdf-pages.html</b:widget-setting>
+           <b:widget-setting name='link-3'>/p/scan-to-pdf.html</b:widget-setting>
+           <b:widget-setting name='link-4'>/p/delete-pdf-pages.html</b:widget-setting>
+           <b:widget-setting name='text-1'>Split PDF</b:widget-setting>
+           <b:widget-setting name='text-0'>Merge PDF</b:widget-setting>
+           <b:widget-setting name='text-3'>Scan to PDF</b:widget-setting>
+           <b:widget-setting name='text-2'>Organize PDF</b:widget-setting>
+           <b:widget-setting name='text-5'>Extract Pages</b:widget-setting>
+           <b:widget-setting name='text-4'>Delete Pages</b:widget-setting>
+           <b:widget-setting name='text-6'>Rearrange Pages</b:widget-setting>
+           <b:widget-setting name='sorting'>NONE</b:widget-setting>
+           <b:widget-setting name='link-1'>/p/split-pdf.html</b:widget-setting>
+           <b:widget-setting name='link-2'>/p/organize-pdf.html</b:widget-setting>
+           <b:widget-setting name='link-0'>/p/merge-pdf.html</b:widget-setting>
+         </b:widget-settings>
+         <b:includable id='main'>
+  <b:if cond='data:title != &quot;&quot;'><h2 class='pdf-cat-title'><data:title/></h2></b:if>
+  <div class='widget-content'>
+    <ul class='pdf-tools-list'>
+      <b:loop values='data:links' var='link'>
+        <li><a class='tool-box' expr:href='data:link.target'><i aria-hidden='true' class='fa fa-file-pdf-o tool-icon'/><h3><data:link.name/></h3></a></li>
+      </b:loop>
+    </ul>
+  </div>
+  <b:include name='quickedit'/>
+</b:includable>
+       </b:widget>
+     </b:section>
+
+     <b:section class='pdf-tool-category' id='pdf-cat-optimize' preferred='true' showaddelement='yes'>
+       <b:widget id='LinkList21' locked='false' title='Optimize PDF' type='LinkList' version='1'>
+         <b:widget-settings>
+           <b:widget-setting name='link-3'>/p/flatten-pdf.html</b:widget-setting>
+           <b:widget-setting name='sorting'>NONE</b:widget-setting>
+           <b:widget-setting name='link-4'>/p/optimize-pdf-for-web.html</b:widget-setting>
+           <b:widget-setting name='text-1'>Repair PDF</b:widget-setting>
+           <b:widget-setting name='link-1'>/p/repair-pdf.html</b:widget-setting>
+           <b:widget-setting name='text-0'>Compress PDF</b:widget-setting>
+           <b:widget-setting name='link-2'>/p/ocr-pdf.html</b:widget-setting>
+           <b:widget-setting name='text-3'>Flatten PDF</b:widget-setting>
+           <b:widget-setting name='link-0'>/p/compress-pdf.html</b:widget-setting>
+           <b:widget-setting name='text-2'>OCR PDF</b:widget-setting>
+           <b:widget-setting name='text-4'>Optimize PDF for Web</b:widget-setting>
+         </b:widget-settings>
+         <b:includable id='main'>
+  <b:if cond='data:title != &quot;&quot;'><h2 class='pdf-cat-title'><data:title/></h2></b:if>
+  <div class='widget-content'>
+    <ul class='pdf-tools-list'>
+      <b:loop values='data:links' var='link'>
+        <li><a class='tool-box' expr:href='data:link.target'><i aria-hidden='true' class='fa fa-file-pdf-o tool-icon'/><h3><data:link.name/></h3></a></li>
+      </b:loop>
+    </ul>
+  </div>
+  <b:include name='quickedit'/>
+</b:includable>
+       </b:widget>
+     </b:section>
+
+     <b:section class='pdf-tool-category' id='pdf-cat-convert' preferred='true' showaddelement='yes'>
+       <b:widget id='LinkList22' locked='false' title='Convert PDF' type='LinkList' version='1'>
+         <b:widget-settings>
+           <b:widget-setting name='text-10'>PDF to Text</b:widget-setting>
+           <b:widget-setting name='sorting'>NONE</b:widget-setting>
+           <b:widget-setting name='link-1'>/p/pdf-to-powerpoint.html</b:widget-setting>
+           <b:widget-setting name='link-13'>/p/pdf-to-epub.html</b:widget-setting>
+           <b:widget-setting name='link-2'>/p/pdf-to-excel.html</b:widget-setting>
+           <b:widget-setting name='link-12'>/p/pdf-to-csv.html</b:widget-setting>
+           <b:widget-setting name='link-0'>/p/pdf-to-word.html</b:widget-setting>
+           <b:widget-setting name='link-11'>/p/text-to-pdf.html</b:widget-setting>
+           <b:widget-setting name='link-10'>/p/pdf-to-text.html</b:widget-setting>
+           <b:widget-setting name='text-9'>PDF to PDF/A</b:widget-setting>
+           <b:widget-setting name='link-9'>/p/pdf-to-pdf-a.html</b:widget-setting>
+           <b:widget-setting name='text-8'>HTML to PDF</b:widget-setting>
+           <b:widget-setting name='link-7'>/p/jpg-to-pdf.html</b:widget-setting>
+           <b:widget-setting name='link-8'>/p/html-to-pdf.html</b:widget-setting>
+           <b:widget-setting name='link-5'>/p/excel-to-pdf.html</b:widget-setting>
+           <b:widget-setting name='link-6'>/p/pdf-to-jpg.html</b:widget-setting>
+           <b:widget-setting name='link-3'>/p/word-to-pdf.html</b:widget-setting>
+           <b:widget-setting name='link-4'>/p/powerpoint-to-pdf.html</b:widget-setting>
+           <b:widget-setting name='text-1'>PDF to PowerPoint</b:widget-setting>
+           <b:widget-setting name='text-0'>PDF to Word</b:widget-setting>
+           <b:widget-setting name='text-3'>Word to PDF</b:widget-setting>
+           <b:widget-setting name='text-2'>PDF to Excel</b:widget-setting>
+           <b:widget-setting name='text-5'>Excel to PDF</b:widget-setting>
+           <b:widget-setting name='text-4'>PowerPoint to PDF</b:widget-setting>
+           <b:widget-setting name='text-7'>JPG to PDF</b:widget-setting>
+           <b:widget-setting name='text-6'>PDF to JPG</b:widget-setting>
+           <b:widget-setting name='text-11'>Text to PDF</b:widget-setting>
+           <b:widget-setting name='text-12'>PDF to CSV</b:widget-setting>
+           <b:widget-setting name='text-13'>PDF to EPUB</b:widget-setting>
+         </b:widget-settings>
+         <b:includable id='main'>
+  <b:if cond='data:title != &quot;&quot;'><h2 class='pdf-cat-title'><data:title/></h2></b:if>
+  <div class='widget-content'>
+    <ul class='pdf-tools-list'>
+      <b:loop values='data:links' var='link'>
+        <li><a class='tool-box' expr:href='data:link.target'><i aria-hidden='true' class='fa fa-file-pdf-o tool-icon'/><h3><data:link.name/></h3></a></li>
+      </b:loop>
+    </ul>
+  </div>
+  <b:include name='quickedit'/>
+</b:includable>
+       </b:widget>
+     </b:section>
+
+     <b:section class='pdf-tool-category' id='pdf-cat-edit' preferred='true' showaddelement='yes'>
+       <b:widget id='LinkList23' locked='false' title='Edit PDF' type='LinkList' version='1'>
+         <b:widget-settings>
+           <b:widget-setting name='link-5'>/p/header-and-footer.html</b:widget-setting>
+           <b:widget-setting name='link-3'>/p/page-numbers.html</b:widget-setting>
+           <b:widget-setting name='link-4'>/p/crop-pdf.html</b:widget-setting>
+           <b:widget-setting name='text-1'>Watermark</b:widget-setting>
+           <b:widget-setting name='text-0'>Edit PDF</b:widget-setting>
+           <b:widget-setting name='text-3'>Page numbers</b:widget-setting>
+           <b:widget-setting name='text-2'>Rotate PDF</b:widget-setting>
+           <b:widget-setting name='text-5'><![CDATA[Header & Footer]]></b:widget-setting>
+           <b:widget-setting name='text-4'>Crop PDF</b:widget-setting>
+           <b:widget-setting name='sorting'>NONE</b:widget-setting>
+           <b:widget-setting name='link-1'>/p/watermark.html</b:widget-setting>
+           <b:widget-setting name='link-2'>/p/rotate-pdf.html</b:widget-setting>
+           <b:widget-setting name='link-0'>/p/edit-pdf.html</b:widget-setting>
+         </b:widget-settings>
+         <b:includable id='main'>
+  <b:if cond='data:title != &quot;&quot;'><h2 class='pdf-cat-title'><data:title/></h2></b:if>
+  <div class='widget-content'>
+    <ul class='pdf-tools-list'>
+      <b:loop values='data:links' var='link'>
+        <li><a class='tool-box' expr:href='data:link.target'><i aria-hidden='true' class='fa fa-file-pdf-o tool-icon'/><h3><data:link.name/></h3></a></li>
+      </b:loop>
+    </ul>
+  </div>
+  <b:include name='quickedit'/>
+</b:includable>
+       </b:widget>
+     </b:section>
+
+     <b:section class='pdf-tool-category' id='pdf-cat-security' preferred='true' showaddelement='yes'>
+       <b:widget id='LinkList24' locked='false' title='PDF Security' type='LinkList' version='1'>
+         <b:widget-settings>
+           <b:widget-setting name='link-5'>/p/pdf-permissions.html</b:widget-setting>
+           <b:widget-setting name='link-3'>/p/compare-pdf.html</b:widget-setting>
+           <b:widget-setting name='link-4'>/p/redact-pdf.html</b:widget-setting>
+           <b:widget-setting name='text-1'>Unlock PDF</b:widget-setting>
+           <b:widget-setting name='text-0'>Sign PDF</b:widget-setting>
+           <b:widget-setting name='text-3'>Compare PDF</b:widget-setting>
+           <b:widget-setting name='text-2'>Protect PDF</b:widget-setting>
+           <b:widget-setting name='text-5'>PDF Permissions</b:widget-setting>
+           <b:widget-setting name='text-4'>Redact PDF</b:widget-setting>
+           <b:widget-setting name='sorting'>NONE</b:widget-setting>
+           <b:widget-setting name='link-1'>/p/unlock-pdf.html</b:widget-setting>
+           <b:widget-setting name='link-2'>/p/protect-pdf.html</b:widget-setting>
+           <b:widget-setting name='link-0'>/p/sign-pdf.html</b:widget-setting>
+         </b:widget-settings>
+         <b:includable id='main'>
+  <b:if cond='data:title != &quot;&quot;'><h2 class='pdf-cat-title'><data:title/></h2></b:if>
+  <div class='widget-content'>
+    <ul class='pdf-tools-list'>
+      <b:loop values='data:links' var='link'>
+        <li><a class='tool-box' expr:href='data:link.target'><i aria-hidden='true' class='fa fa-file-pdf-o tool-icon'/><h3><data:link.name/></h3></a></li>
+      </b:loop>
+    </ul>
+  </div>
+  <b:include name='quickedit'/>
+</b:includable>
+       </b:widget>
+     </b:section>
+
+     <b:section class='pdf-tool-category' id='pdf-cat-view' preferred='true' showaddelement='yes'>
+       <b:widget id='LinkList26' locked='false' title='View PDF' type='LinkList' version='1'>
+         <b:widget-settings>
+           <b:widget-setting name='sorting'>NONE</b:widget-setting>
+           <b:widget-setting name='text-1'>PDF Viewer</b:widget-setting>
+           <b:widget-setting name='link-1'>/p/pdf-viewer.html</b:widget-setting>
+           <b:widget-setting name='text-0'>PDF Reader</b:widget-setting>
+           <b:widget-setting name='link-0'>/p/pdf-reader.html</b:widget-setting>
+         </b:widget-settings>
+         <b:includable id='main'>
+  <b:if cond='data:title != &quot;&quot;'><h2 class='pdf-cat-title'><data:title/></h2></b:if>
+  <div class='widget-content'>
+    <ul class='pdf-tools-list'>
+      <b:loop values='data:links' var='link'>
+        <li><a class='tool-box' expr:href='data:link.target'><i aria-hidden='true' class='fa fa-file-pdf-o tool-icon'/><h3><data:link.name/></h3></a></li>
+      </b:loop>
+    </ul>
+  </div>
+  <b:include name='quickedit'/>
+</b:includable>
+       </b:widget>
+     </b:section>
+
+     <b:section class='pdf-tool-category' id='pdf-cat-image' preferred='true' showaddelement='yes'>
+       <b:widget id='LinkList25' locked='false' title='Image Tools' type='LinkList' version='1'>
+         <b:widget-settings>
+           <b:widget-setting name='link-5'>/p/image-rotator.html</b:widget-setting>
+           <b:widget-setting name='link-6'>/p/background-remover.html</b:widget-setting>
+           <b:widget-setting name='link-3'>/p/image-to-pdf.html</b:widget-setting>
+           <b:widget-setting name='link-4'>/p/image-cropper.html</b:widget-setting>
+           <b:widget-setting name='text-1'>Image Compressor</b:widget-setting>
+           <b:widget-setting name='text-0'>Image Resize</b:widget-setting>
+           <b:widget-setting name='text-3'>Image to PDF</b:widget-setting>
+           <b:widget-setting name='text-2'>Image Converter</b:widget-setting>
+           <b:widget-setting name='text-5'>Image Rotator</b:widget-setting>
+           <b:widget-setting name='text-4'>Image Cropper</b:widget-setting>
+           <b:widget-setting name='text-6'>Background Remover</b:widget-setting>
+           <b:widget-setting name='sorting'>NONE</b:widget-setting>
+           <b:widget-setting name='link-1'>/p/image-compressor.html</b:widget-setting>
+           <b:widget-setting name='link-2'>/p/image-converter.html</b:widget-setting>
+           <b:widget-setting name='link-0'>/p/image-resize.html</b:widget-setting>
+         </b:widget-settings>
+         <b:includable id='main'>
+  <b:if cond='data:title != &quot;&quot;'><h2 class='pdf-cat-title'><data:title/></h2></b:if>
+  <div class='widget-content'>
+    <ul class='pdf-tools-list'>
+      <b:loop values='data:links' var='link'>
+        <li><a class='tool-box' expr:href='data:link.target'><i aria-hidden='true' class='fa fa-file-pdf-o tool-icon'/><h3><data:link.name/></h3></a></li>
+      </b:loop>
+    </ul>
+  </div>
+  <b:include name='quickedit'/>
+</b:includable>
+       </b:widget>
+     </b:section>
+
+     <!-- ================= GENERAL TOOLS DIRECTORY (Blogger Layout-editable) =================
+
+          Each category below is its own HTML widget so every tool can have its own
+
+          description (Blogger's Link List widget only supports a name + link, no
+
+          description text, so these use the HTML widget type instead).
+
+          To edit: Blogger Dashboard > Theme > Customize > Layout, open the matching
+
+          box (e.g. "Encoding and Decoding") and edit the HTML content: each tool is one
+
+          div with class "tool-dir-card" containing an icon, title, description and link. -->
+
+
+     <b:section class='tool-dir-category' id='tools-cat-encoding-and-decoding' preferred='true' showaddelement='yes'>
+       <b:widget id='HTML30' locked='false' title='Encoding &amp;amp; Decoding' type='HTML' version='1'>
+         <b:widget-settings>
+           <b:widget-setting name='content'><![CDATA[<div class="tool-dir-section">
+  <h2 class="tool-dir-title"><i aria-hidden="true" class="fa fa-key"></i> Encoding &amp; Decoding <span class="tool-dir-arrow">&#8594;</span></h2>
+  <div class="tool-dir-grid">
+  <a class="tool-dir-card" href="/p/base64-encoder.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-key"></i></span>
+    <h3>Base64 Encoder</h3>
+    <p>Encode data to Base64 format.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  <a class="tool-dir-card" href="/p/base64-decoder.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-key"></i></span>
+    <h3>Base64 Decoder</h3>
+    <p>Decode Base64 encoded data.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  <a class="tool-dir-card" href="/p/url-encoder.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-key"></i></span>
+    <h3>URL Encoder</h3>
+    <p>Encode URLs for safe transmission.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  <a class="tool-dir-card" href="/p/url-decoder.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-key"></i></span>
+    <h3>URL Decoder</h3>
+    <p>Decode encoded URLs.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  <a class="tool-dir-card" href="/p/html-entity-encoder.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-key"></i></span>
+    <h3>HTML Entity Encoder</h3>
+    <p>Encode special characters as HTML entities.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  <a class="tool-dir-card" href="/p/html-entity-decoder.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-key"></i></span>
+    <h3>HTML Entity Decoder</h3>
+    <p>Decode HTML entities to characters.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  <a class="tool-dir-card" href="/p/jwt-decoder.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-key"></i></span>
+    <h3>JWT Decoder</h3>
+    <p>Decode and inspect JWT tokens.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  <a class="tool-dir-card" href="/p/morse-code-translator.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-key"></i></span>
+    <h3>Morse Code Translator</h3>
+    <p>Translate text to and from Morse code.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  </div>
+</div>]]></b:widget-setting>
+         </b:widget-settings>
+         <b:includable id='main'>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+  <b:include name='quickedit'/>
+</b:includable>
+       </b:widget>
+     </b:section>
+
+
+     <b:section class='tool-dir-category' id='tools-cat-torrent-and-hashing' preferred='true' showaddelement='yes'>
+       <b:widget id='HTML31' locked='false' title='Torrent &amp;amp; Hashing' type='HTML' version='1'>
+         <b:widget-settings>
+           <b:widget-setting name='content'><![CDATA[<div class="tool-dir-section">
+  <h2 class="tool-dir-title"><i aria-hidden="true" class="fa fa-magnet"></i> Torrent &amp; Hashing <span class="tool-dir-arrow">&#8594;</span></h2>
+  <div class="tool-dir-grid">
+  <a class="tool-dir-card" href="/p/magnet-link-generator.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-magnet"></i></span>
+    <h3>Magnet Link Generator</h3>
+    <p>Generate magnet links from torrent files.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  <a class="tool-dir-card" href="/p/btih-hash-generator.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-magnet"></i></span>
+    <h3>BTIH Hash Generator</h3>
+    <p>Generate BTIH hashes for torrents.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  <a class="tool-dir-card" href="/p/torrent-file-parser.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-magnet"></i></span>
+    <h3>Torrent File Parser</h3>
+    <p>Parse and inspect torrent file contents.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  <a class="tool-dir-card" href="/p/torrent-file-creator.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-magnet"></i></span>
+    <h3>Torrent File Creator</h3>
+    <p>Create new .torrent files.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  <a class="tool-dir-card" href="/p/info-hash-extractor.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-magnet"></i></span>
+    <h3>Info Hash Extractor</h3>
+    <p>Extract the info hash from a torrent file.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  </div>
+</div>]]></b:widget-setting>
+         </b:widget-settings>
+         <b:includable id='main'>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+  <b:include name='quickedit'/>
+</b:includable>
+       </b:widget>
+     </b:section>
+
+
+     <b:section class='tool-dir-category' id='tools-cat-data-conversion-and-formatting' preferred='true' showaddelement='yes'>
+       <b:widget id='HTML32' locked='false' title='Data Conversion &amp;amp; Formatting' type='HTML' version='1'>
+         <b:widget-settings>
+           <b:widget-setting name='content'><![CDATA[<div class="tool-dir-section">
+  <h2 class="tool-dir-title"><i aria-hidden="true" class="fa fa-exchange"></i> Data Conversion &amp; Formatting <span class="tool-dir-arrow">&#8594;</span></h2>
+  <div class="tool-dir-grid">
+  <a class="tool-dir-card" href="/p/pdf-to-markdown-converter.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-exchange"></i></span>
+    <h3>Pdf to Markdown Converter</h3>
+    <p>Convert Pdf files to Markdown format.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  <a class="tool-dir-card" href="/p/csv-to-markdown-converter.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-exchange"></i></span>
+    <h3>CSV to Markdown Converter</h3>
+    <p>Convert CSV files to Markdown tables.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  <a class="tool-dir-card" href="/p/json-to-markdown-converter.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-exchange"></i></span>
+    <h3>JSON to Markdown Converter</h3>
+    <p>Convert JSON data to Markdown format.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  <a class="tool-dir-card" href="/p/docx-to-markdown-converter.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-exchange"></i></span>
+    <h3>DOCX to Markdown Converter</h3>
+    <p>Convert DOCX files to Markdown.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  <a class="tool-dir-card" href="/p/html-to-markdown-converter.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-exchange"></i></span>
+    <h3>HTML to Markdown Converter</h3>
+    <p>Convert HTML content to Markdown.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  <a class="tool-dir-card" href="/p/text-to-markdown-converter.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-exchange"></i></span>
+    <h3>Text to Markdown Converter</h3>
+    <p>Convert plain text to Markdown format.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  <a class="tool-dir-card" href="/p/json-formatter-and-validator.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-exchange"></i></span>
+    <h3>JSON Formatter &amp; Validator</h3>
+    <p>Format and validate JSON data.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  <a class="tool-dir-card" href="/p/json-diff-viewer.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-exchange"></i></span>
+    <h3>JSON Diff Viewer</h3>
+    <p>Compare and view differences between JSON files.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  <a class="tool-dir-card" href="/p/json-merge-tool.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-exchange"></i></span>
+    <h3>JSON Merge Tool</h3>
+    <p>Merge multiple JSON files into one.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  <a class="tool-dir-card" href="/p/json-minifier.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-exchange"></i></span>
+    <h3>JSON Minifier</h3>
+    <p>Minify JSON data for compact storage.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  <a class="tool-dir-card" href="/p/json-pretty-printer.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-exchange"></i></span>
+    <h3>JSON Pretty Printer</h3>
+    <p>Format JSON data for readability.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  <a class="tool-dir-card" href="/p/json-schema-validator.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-exchange"></i></span>
+    <h3>JSON Schema Validator</h3>
+    <p>Validate JSON data against a schema.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  <a class="tool-dir-card" href="/p/csv-to-json-converter.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-exchange"></i></span>
+    <h3>CSV to JSON Converter</h3>
+    <p>Convert CSV files to JSON format.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  <a class="tool-dir-card" href="/p/json-to-csv-converter.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-exchange"></i></span>
+    <h3>JSON to CSV Converter</h3>
+    <p>Convert JSON data to CSV files.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  <a class="tool-dir-card" href="/p/yaml-to-json-converter.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-exchange"></i></span>
+    <h3>YAML to JSON Converter</h3>
+    <p>Convert YAML data to JSON format.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  <a class="tool-dir-card" href="/p/json-to-yaml-converter.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-exchange"></i></span>
+    <h3>JSON to YAML Converter</h3>
+    <p>Convert JSON data to YAML format.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  <a class="tool-dir-card" href="/p/xml-formatter.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-exchange"></i></span>
+    <h3>XML Formatter</h3>
+    <p>Format XML data for readability.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  <a class="tool-dir-card" href="/p/xml-to-json-converter.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-exchange"></i></span>
+    <h3>XML to JSON Converter</h3>
+    <p>Convert XML data to JSON format.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  </div>
+</div>]]></b:widget-setting>
+         </b:widget-settings>
+         <b:includable id='main'>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+  <b:include name='quickedit'/>
+</b:includable>
+       </b:widget>
+     </b:section>
+
+
+     <b:section class='tool-dir-category' id='tools-cat-generators' preferred='true' showaddelement='yes'>
+       <b:widget id='HTML33' locked='false' title='Generators' type='HTML' version='1'>
+         <b:widget-settings>
+           <b:widget-setting name='content'><![CDATA[<div class="tool-dir-section">
+  <h2 class="tool-dir-title"><i aria-hidden="true" class="fa fa-cogs"></i> Generators <span class="tool-dir-arrow">&#8594;</span></h2>
+  <div class="tool-dir-grid">
+  <a class="tool-dir-card" href="/p/uuid-generator.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-cogs"></i></span>
+    <h3>UUID Generator</h3>
+    <p>Generate universally unique identifiers (UUIDs).</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  <a class="tool-dir-card" href="/p/nanoid-generator.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-cogs"></i></span>
+    <h3>NanoID Generator</h3>
+    <p>Generate NanoIDs for compact unique IDs.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  </div>
+</div>]]></b:widget-setting>
+         </b:widget-settings>
+         <b:includable id='main'>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+  <b:include name='quickedit'/>
+</b:includable>
+       </b:widget>
+     </b:section>
+
+
+     <b:section class='tool-dir-category' id='tools-cat-website-and-seo' preferred='true' showaddelement='yes'>
+       <b:widget id='HTML34' locked='false' title='Website &amp;amp; SEO' type='HTML' version='1'>
+         <b:widget-settings>
+           <b:widget-setting name='content'><![CDATA[<div class="tool-dir-section">
+  <h2 class="tool-dir-title"><i aria-hidden="true" class="fa fa-globe"></i> Website &amp; SEO <span class="tool-dir-arrow">&#8594;</span></h2>
+  <div class="tool-dir-grid">
+  <a class="tool-dir-card" href="/p/meta-tag-generator.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-globe"></i></span>
+    <h3>Meta Tag Generator</h3>
+    <p>Generate meta tags for your website.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  <a class="tool-dir-card" href="/p/sitemap-finder-and-checker.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-globe"></i></span>
+    <h3>Sitemap Finder and Checker</h3>
+    <p>Find and check sitemaps for websites.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  <a class="tool-dir-card" href="/p/sitemap-generator.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-globe"></i></span>
+    <h3>Sitemap Generator</h3>
+    <p>Generate sitemaps for your website.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  <a class="tool-dir-card" href="/p/xml-sitemap-generator.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-globe"></i></span>
+    <h3>XML Sitemap Generator</h3>
+    <p>Create XML sitemaps for SEO.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  <a class="tool-dir-card" href="/p/sitemap-validator.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-globe"></i></span>
+    <h3>Sitemap Validator</h3>
+    <p>Validate your website's sitemap files.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  <a class="tool-dir-card" href="/p/robots-txt-generator.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-globe"></i></span>
+    <h3>robots.txt Generator</h3>
+    <p>Generate robots.txt files for web crawlers.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  <a class="tool-dir-card" href="/p/openapi-stub-generator.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-globe"></i></span>
+    <h3>OpenAPI Stub Generator</h3>
+    <p>Generate OpenAPI stubs for APIs.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  <a class="tool-dir-card" href="/p/readme-generator.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-globe"></i></span>
+    <h3>README Generator</h3>
+    <p>Create README files for your projects.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  <a class="tool-dir-card" href="/p/ads-txt-generator.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-globe"></i></span>
+    <h3>Ads.txt Generator</h3>
+    <p>Generate ads.txt files for ad monetization.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  <a class="tool-dir-card" href="/p/lms-txt-generator.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-globe"></i></span>
+    <h3>Lms.txt Generator</h3>
+    <p>Generate lms.txt files for language model services.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  </div>
+</div>]]></b:widget-setting>
+         </b:widget-settings>
+         <b:includable id='main'>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+  <b:include name='quickedit'/>
+</b:includable>
+       </b:widget>
+     </b:section>
+
+
+     <b:section class='tool-dir-category' id='tools-cat-ai-generators' preferred='true' showaddelement='yes'>
+       <b:widget id='HTML35' locked='false' title='Ai Generators' type='HTML' version='1'>
+         <b:widget-settings>
+           <b:widget-setting name='content'><![CDATA[<div class="tool-dir-section">
+  <h2 class="tool-dir-title"><i aria-hidden="true" class="fa fa-magic"></i> Ai Generators <span class="tool-dir-arrow">&#8594;</span></h2>
+  <div class="tool-dir-grid">
+  <a class="tool-dir-card" href="/p/ai-review-generator.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-magic"></i></span>
+    <h3>Ai Review Generator</h3>
+    <p>Generate product or service reviews using AI.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  <a class="tool-dir-card" href="/p/ai-reply-generator.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-magic"></i></span>
+    <h3>AI Reply Generator</h3>
+    <p>Generate smart replies using AI.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  <a class="tool-dir-card" href="/p/ai-prompt-generator.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-magic"></i></span>
+    <h3>Ai Prompt Generator</h3>
+    <p>Create prompts for AI models.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  <a class="tool-dir-card" href="/p/ai-prompt-optimizer.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-magic"></i></span>
+    <h3>AI Prompt Optimizer</h3>
+    <p>Optimize prompts for better AI results.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  <a class="tool-dir-card" href="/p/ai-faq-generator.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-magic"></i></span>
+    <h3>AI Faq Generator</h3>
+    <p>Generate FAQ sections using AI.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  <a class="tool-dir-card" href="/p/ai-answer-generator.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-magic"></i></span>
+    <h3>AI Answer Generator</h3>
+    <p>Generate answers to questions using AI.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  <a class="tool-dir-card" href="/p/ai-email-response-generator.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-magic"></i></span>
+    <h3>AI Email Response Generator</h3>
+    <p>Generate email responses with AI assistance.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  <a class="tool-dir-card" href="/p/ai-letter-generator.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-magic"></i></span>
+    <h3>Ai Letter Generator</h3>
+    <p>Create letters using AI.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  <a class="tool-dir-card" href="/p/ai-blog-title-generator.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-magic"></i></span>
+    <h3>AI Blog title Generator</h3>
+    <p>Generate catchy blog titles with AI.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  <a class="tool-dir-card" href="/p/ai-saas-name-generator.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-magic"></i></span>
+    <h3>AI Saas Name Generator</h3>
+    <p>Generate SaaS product names using AI.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  </div>
+</div>]]></b:widget-setting>
+         </b:widget-settings>
+         <b:includable id='main'>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+  <b:include name='quickedit'/>
+</b:includable>
+       </b:widget>
+     </b:section>
+
+
+     <b:section class='tool-dir-category' id='tools-cat-trending-tools' preferred='true' showaddelement='yes'>
+       <b:widget id='HTML36' locked='false' title='Trending Tools' type='HTML' version='1'>
+         <b:widget-settings>
+           <b:widget-setting name='content'><![CDATA[<div class="tool-dir-section">
+  <h2 class="tool-dir-title"><i aria-hidden="true" class="fa fa-fire"></i> Trending Tools <span class="tool-dir-arrow">&#8594;</span></h2>
+  <div class="tool-dir-grid">
+  <a class="tool-dir-card" href="/p/qr-code-generator.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-fire"></i></span>
+    <h3>QR Code Generator</h3>
+    <p>Generate QR codes for URLs, text, and more.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  <a class="tool-dir-card" href="/p/random-password-generator.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-fire"></i></span>
+    <h3>Random Password Generator</h3>
+    <p>Create strong, random passwords instantly.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  <a class="tool-dir-card" href="/p/random-name-generator.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-fire"></i></span>
+    <h3>Random Name Generator</h3>
+    <p>Generate random names for any purpose.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  <a class="tool-dir-card" href="/p/last-name-generator.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-fire"></i></span>
+    <h3>Last Name Generator</h3>
+    <p>Generate last names quickly.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  <a class="tool-dir-card" href="/p/random-username-generator.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-fire"></i></span>
+    <h3>Random Username Generator</h3>
+    <p>Create unique usernames for online accounts.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  <a class="tool-dir-card" href="/p/random-choice-picker.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-fire"></i></span>
+    <h3>Random Choice Picker</h3>
+    <p>Pick a random choice from a list of options.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  <a class="tool-dir-card" href="/p/random-number-generator.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-fire"></i></span>
+    <h3>Random Number Generator</h3>
+    <p>Generate random numbers within a range.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  <a class="tool-dir-card" href="/p/lorem-ipsum-generator.html">
+    <span class="tool-dir-icon"><i aria-hidden="true" class="fa fa-fire"></i></span>
+    <h3>Lorem Ipsum Generator</h3>
+    <p>Generate placeholder Lorem Ipsum text.</p>
+    <span class="tool-dir-open">Open tool &#8594;</span>
+  </a>
+  </div>
+</div>]]></b:widget-setting>
+         </b:widget-settings>
+         <b:includable id='main'>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+  <b:include name='quickedit'/>
+</b:includable>
+       </b:widget>
+     </b:section>
+
+
+     <!-- Extra addable section: in Blogger, go to Theme > Customize > Layout and click
+          "Add a Gadget" here to add a whole new category/section on the homepage
+          (e.g. a banner, extra text, or an entirely new group of tools). -->
+     <b:section id='extra-tools-section' preferred='true' showaddelement='yes'/>
+
+
+
+     </b:if>
+     
+     <b:if cond='data:view.isSingleItem'>
+     <b:section class='main' id='main-wrapper' showaddelement='yes'>
+       <b:widget id='Blog1' locked='false' title='Blog Posts' type='Blog' version='1'>
+         <b:widget-settings>
+           <b:widget-setting name='showDateHeader'>true</b:widget-setting>
+           <b:widget-setting name='commentLabel'>Comments</b:widget-setting>
+           <b:widget-setting name='style.textcolor'>#ffffff</b:widget-setting>
+           <b:widget-setting name='showShareButtons'>false</b:widget-setting>
+           <b:widget-setting name='authorLabel'>By</b:widget-setting>
+           <b:widget-setting name='showCommentLink'>true</b:widget-setting>
+           <b:widget-setting name='style.urlcolor'>#ffffff</b:widget-setting>
+           <b:widget-setting name='showAuthor'>true</b:widget-setting>
+           <b:widget-setting name='style.linkcolor'>#ffffff</b:widget-setting>
+           <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
+           <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
+           <b:widget-setting name='timestampLabel'>-</b:widget-setting>
+           <b:widget-setting name='reactionsLabel'/>
+           <b:widget-setting name='showAuthorProfile'>false</b:widget-setting>
+           <b:widget-setting name='style.layout'>1x1</b:widget-setting>
+           <b:widget-setting name='showLabels'>true</b:widget-setting>
+           <b:widget-setting name='showLocation'>false</b:widget-setting>
+           <b:widget-setting name='postLabelsLabel'>Tags:</b:widget-setting>
+           <b:widget-setting name='showTimestamp'>true</b:widget-setting>
+           <b:widget-setting name='postsPerAd'>1</b:widget-setting>
+           <b:widget-setting name='showBacklinks'>false</b:widget-setting>
+           <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
+           <b:widget-setting name='showInlineAds'>false</b:widget-setting>
+           <b:widget-setting name='showReactions'>false</b:widget-setting>
+         </b:widget-settings>
+         <b:includable id='main' var='top'>
+  <b:if cond='!data:mobile'>
+    <b:if cond='data:view.isHomepage'>
+      <div class='title-box'>
+        <h3>All Books</h3>
+        <a expr:href='data:olderPageUrl'>See all</a>
+      </div>
+    </b:if>
+    
+    <div class='blog-posts hfeed'>
+      
+      <b:loop values='data:posts' var='post'>  
+        <b:include data='post' name='post'/>
+        <b:include cond='data:blog.pageType in {&quot;static_page&quot;,&quot;item&quot;}' data='post' name='comment_picker'/>
+      </b:loop>
+    </div>
+    <b:if cond='data:view.isHomepage'>
+      <a class='see-btn' expr:href='data:olderPageUrl'>See all</a>
+      <b:else/>
+    <b:include name='nextprev'/>
+    </b:if>
+      
+  <b:else/>
+    <b:include name='mobile-main'/>
+  </b:if>
+</b:includable>
+         <b:includable id='backlinkDeleteIcon' var='backlink'/>
+         <b:includable id='backlinks' var='post'/>
+         <b:includable id='comment-form' var='post'>
+  <div class='comment-form'>
+    <a name='comment-form'/>
+    <b:if cond='data:mobile'>
+      <h4 id='comment-post-message'>
+        <a expr:id='data:widget.instanceId + &quot;_comment-editor-toggle-link&quot;' href='javascript:void(0)'><data:postCommentMsg/></a></h4>
+      <p><data:blogCommentMessage/></p>
+      <data:blogTeamBlogMessage/>
+      <a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/>
+      <iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' expr:height='data:cmtIframeInitialHeight' frameborder='0' id='comment-editor' name='comment-editor' src='' style='display: none' width='100%'/>
+    <b:else/>
+      <h4 id='comment-post-message'><data:postCommentMsg/></h4>
+      <p><data:blogCommentMessage/></p>
+      <data:blogTeamBlogMessage/>
+      <a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/>
+      <iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' expr:height='data:cmtIframeInitialHeight' frameborder='0' id='comment-editor' name='comment-editor' src='' width='100%'/>
+    </b:if>
+    <data:post.cmtfpIframe/>
+    <script type='text/javascript'>
+      BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;);
+    </script>
+  </div>
+</b:includable>
+         <b:includable id='commentDeleteIcon' var='comment'>
+  <span expr:class='&quot;item-control &quot; + data:comment.adminClass'>
+    <b:if cond='data:showCmtPopup'>
+      <div class='goog-toggle-button'>
+        <div class='goog-inline-block comment-action-icon'/>
+      </div>
+    <b:else/>
+      <a class='comment-delete' expr:href='data:comment.deleteUrl' expr:title='data:top.deleteCommentMsg'>
+        <img src='https://resources.blogblog.com/img/icon_delete13.gif'/>
+      </a>
+    </b:if>
+  </span>
+</b:includable>
+         <b:includable id='comment_count_picker' var='post'>
+  <a class='comment-link' expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'>
+    <data:post.commentLabelFull/>:
+  </a>
+</b:includable>
+         <b:includable id='comment_picker' var='post'>
+  <b:if cond='data:post.showThreadedComments'>
+    <b:include data='post' name='threaded_comments'/>
+  <b:else/>
+    <b:include data='post' name='comments'/>
+  </b:if>
+</b:includable>
+         <b:includable id='comments' var='post'>
+  <div class='comments' id='comments'>
+    <a name='comments'/>
+    <b:if cond='data:post.allowComments'>
+      <h4><data:post.commentLabelFull/>:</h4>
+
+      <b:if cond='data:post.commentPagingRequired'>
+        <span class='paging-control-container'>
+          <b:if cond='data:post.hasOlderLinks'>
+            <a expr:class='data:post.oldLinkClass' expr:href='data:post.oldestLinkUrl'><data:post.oldestLinkText/></a>
+              &#160;
+            <a expr:class='data:post.oldLinkClass' expr:href='data:post.olderLinkUrl'><data:post.olderLinkText/></a>
+              &#160;
+          </b:if>
+
+          <data:post.commentRangeText/>
+
+          <b:if cond='data:post.hasNewerLinks'>
+            &#160;
+            <a expr:class='data:post.newLinkClass' expr:href='data:post.newerLinkUrl'><data:post.newerLinkText/></a>
+            &#160;
+            <a expr:class='data:post.newLinkClass' expr:href='data:post.newestLinkUrl'><data:post.newestLinkText/></a>
+          </b:if>
+        </span>
+      </b:if>
+
+      <div expr:id='data:widget.instanceId + &quot;_comments-block-wrapper&quot;'>
+        <dl expr:class='data:post.avatarIndentClass' id='comments-block'>
+          <b:loop values='data:post.comments' var='comment'>
+            <dt expr:class='&quot;comment-author &quot; + data:comment.authorClass' expr:id='data:comment.anchorName'>
+              <b:if cond='data:comment.favicon'>
+                <img expr:src='data:comment.favicon' height='16px' style='margin-bottom:-2px;' width='16px'/>
+              </b:if>
+              <a expr:name='data:comment.anchorName'/>
+              <b:if cond='data:blog.enabledCommentProfileImages'>
+                <data:comment.authorAvatarImage/>
+              </b:if>
+              <b:if cond='data:comment.authorUrl'>
+                <a expr:href='data:comment.authorUrl' rel='nofollow'><data:comment.author/></a>
+              <b:else/>
+                <data:comment.author/>
+              </b:if>
+              <data:commentPostedByMsg/>
+            </dt>
+            <dd class='comment-body' expr:id='data:widget.instanceId + data:comment.cmtBodyIdPostfix'>
+              <b:if cond='data:comment.isDeleted'>
+                <span class='deleted-comment'><data:comment.body/></span>
+              <b:else/>
+                <p>
+                  <data:comment.body/>
+                </p>
+              </b:if>
+            </dd>
+            <dd class='comment-footer'>
+              <span class='comment-timestamp'>
+                <a expr:href='data:comment.url' title='comment permalink'>
+                  <data:comment.timestamp/>
+                </a>
+                <b:include data='comment' name='commentDeleteIcon'/>
+              </span>
+            </dd>
+          </b:loop>
+        </dl>
+      </div>
+
+      <b:if cond='data:post.commentPagingRequired'>
+        <span class='paging-control-container'>
+          <a expr:class='data:post.oldLinkClass' expr:href='data:post.oldestLinkUrl'>
+            <data:post.oldestLinkText/>
+          </a>
+          <a expr:class='data:post.oldLinkClass' expr:href='data:post.olderLinkUrl'>
+            <data:post.olderLinkText/>
+          </a>
+          &#160;
+          <data:post.commentRangeText/>
+          &#160;
+          <a expr:class='data:post.newLinkClass' expr:href='data:post.newerLinkUrl'>
+            <data:post.newerLinkText/>
+          </a>
+          <a expr:class='data:post.newLinkClass' expr:href='data:post.newestLinkUrl'>
+            <data:post.newestLinkText/>
+          </a>
+        </span>
+      </b:if>
+
+      <p class='comment-footer'>
+        <b:if cond='data:post.embedCommentForm'>
+          <b:if cond='data:post.allowNewComments'>
+            <b:include data='post' name='comment-form'/>
+          <b:else/>
+            <data:post.noNewCommentsText/>
+          </b:if>
+        <b:elseif cond='data:post.allowComments'/>
+          <a expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'><data:postCommentMsg/></a>
+        </b:if>
+      </p>
+    </b:if>
+    <b:if cond='data:showCmtPopup'>
+      <div id='comment-popup'>
+        <iframe allowtransparency='true' frameborder='0' id='comment-actions' name='comment-actions' scrolling='no'>
+        </iframe>
+      </div>
+    </b:if>
+
+  </div>
+</b:includable>
+         <b:includable id='feedLinks'>
+  <b:if cond='data:blog.pageType != &quot;item&quot;'> <!-- Blog feed links -->
+    <b:if cond='data:feedLinks'>
+      <div class='blog-feeds'>
+        <b:include data='feedLinks' name='feedLinksBody'/>
+      </div>
+    </b:if>
+
+  <b:else/> <!--Post feed links -->
+    <div class='post-feeds'>
+      <b:loop values='data:posts' var='post'>
+        <b:include cond='data:post.allowComments and data:post.feedLinks' data='post.feedLinks' name='feedLinksBody'/>
+      </b:loop>
+    </div>
+  </b:if>
+</b:includable>
+         <b:includable id='feedLinksBody' var='links'>
+  <div class='feed-links'>
+  <data:feedLinksMsg/>
+  <b:loop values='data:links' var='f'>
+     <a class='feed-link' expr:href='data:f.url' expr:type='data:f.mimeType' target='_blank'><data:f.name/> (<data:f.feedType/>)</a>
+  </b:loop>
+  </div>
+</b:includable>
+         <b:includable id='iframe_comments' var='post'>
+  <!-- G+ comments, no longer available. The includable is retained for backwards-compatibility. -->
+</b:includable>
+         <b:includable id='mobile-index-post' var='post'>
+  <div class='mobile-date-outer date-outer'>
+    <b:if cond='data:post.dateHeader'>
+      <div class='date-header'>
+        <span><data:post.dateHeader/></span>
+      </div>
+    </b:if>
+
+    <div class='mobile-post-outer'>
+      <a expr:href='data:post.url'>
+        <h3 class='mobile-index-title entry-title' itemprop='name'>
+          <data:post.title/>
+        </h3>
+
+        <div class='mobile-index-arrow'>&amp;rsaquo;</div>
+
+        <div class='mobile-index-contents'>
+          <b:if cond='data:post.thumbnailUrl'>
+            <div class='mobile-index-thumbnail'>
+              <div class='Image'>
+                <img expr:src='data:post.thumbnailUrl'/>
+              </div>
+            </div>
+          </b:if>
+
+          <div class='post-body'>
+            <b:if cond='data:post.snippet'><data:post.snippet/></b:if>
+          </div>
+        </div>
+
+        <div style='clear: both;'/>
+      </a>
+
+      <div class='mobile-index-comment'>
+        <b:include cond='data:blog.pageType != &quot;static_page&quot;                          and data:post.allowComments                          and data:post.numComments != 0' data='post' name='comment_count_picker'/>
+      </div>
+    </div>
+  </div>
+</b:includable>
+         <b:includable id='mobile-main' var='top'>
+    <!-- posts -->
+    <div class='blog-posts hfeed'>
+
+      <b:include data='top' name='status-message'/>
+
+      <b:if cond='data:blog.pageType == &quot;index&quot;'>
+        <b:loop values='data:posts' var='post'>
+          <b:include data='post' name='mobile-index-post'/>
+        </b:loop>
+      <b:else/>
+        <b:loop values='data:posts' var='post'>
+          <b:include data='post' name='mobile-post'/>
+        </b:loop>
+      </b:if>
+    </div>
+
+   <b:include name='mobile-nextprev'/>
+</b:includable>
+         <b:includable id='mobile-nextprev'>
+  <div class='blog-pager' id='blog-pager'>
+    <b:if cond='data:newerPageUrl'>
+      <div class='mobile-link-button' id='blog-pager-newer-link'>
+      <a class='blog-pager-newer-link' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-newer-link&quot;' expr:title='data:newerPageTitle'>&amp;lsaquo;</a>
+      </div>
+    </b:if>
+
+    <b:if cond='data:olderPageUrl'>
+      <div class='mobile-link-button' id='blog-pager-older-link'>
+      <a class='blog-pager-older-link' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-older-link&quot;' expr:title='data:olderPageTitle'>&amp;rsaquo;</a>
+      </div>
+    </b:if>
+
+    <div class='mobile-link-button' id='blog-pager-home-link'>
+    <a class='home-link' expr:href='data:blog.homepageUrl'><data:homeMsg/></a>
+    </div>
+
+    <div class='mobile-desktop-link'>
+      <a class='home-link' expr:href='data:desktopLinkUrl'><data:desktopLinkMsg/></a>
+    </div>
+
+  </div>
+  <div class='clear'/>
+</b:includable>
+         <b:includable id='mobile-post' var='post'>
+  <div class='date-outer'>
+    <b:if cond='data:post.dateHeader'>
+      <h2 class='date-header'><span><data:post.dateHeader/></span></h2>
+    </b:if>
+    <div class='date-posts'>
+      <div class='post-outer'>
+
+        <div class='post hentry uncustomized-post-template' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+          <b:if cond='data:post.thumbnailUrl'>
+            <meta expr:content='data:post.thumbnailUrl' itemprop='image_url'/>
+          </b:if>
+          <meta expr:content='data:blog.blogId' itemprop='blogId'/>
+          <meta expr:content='data:post.id' itemprop='postId'/>
+
+          <a expr:name='data:post.id'/>
+          <b:if cond='data:post.title'>
+            <h3 class='post-title entry-title' itemprop='name'>
+              <b:if cond='data:post.link'>
+                <a expr:href='data:post.link'><data:post.title/></a>
+              <b:elseif cond='data:post.url and data:blog.url != data:post.url'/>
+                <a expr:href='data:post.url'><data:post.title/></a>
+              <b:else/>
+                <data:post.title/>
+              </b:if>
+            </h3>
+          </b:if>
+
+          <div class='post-header'>
+            <div class='post-header-line-1'/>
+          </div>
+
+          <div class='post-body entry-content' expr:id='&quot;post-body-&quot; + data:post.id' itemprop='articleBody'>
+            <data:post.body/>
+            <div style='clear: both;'/> <!-- clear for photos floats -->
+          </div>
+
+          <div class='post-footer'>
+            <div class='post-footer-line post-footer-line-1'>
+              <span class='post-author vcard'>
+                <b:if cond='data:top.showAuthor'>
+                  <b:if cond='data:post.authorProfileUrl'>
+                    <span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+                      <meta expr:content='data:post.authorProfileUrl' itemprop='url'/>
+                      <a expr:href='data:post.authorProfileUrl' rel='author' title='author profile'>
+                        <span itemprop='name'><data:post.author/></span>
+                      </a>
+                    </span>
+                  <b:else/>
+                    <span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+                      <span itemprop='name'><data:post.author/></span>
+                    </span>
+                  </b:if>
+                </b:if>
+              </span>
+
+              <span class='post-timestamp'>
+                <b:if cond='data:top.showTimestamp'>
+                  <data:top.timestampLabel/>
+                  <b:if cond='data:post.url'>
+                    <meta expr:content='data:post.url.canonical' itemprop='url'/>
+                    <a class='timestamp-link' expr:href='data:post.url' rel='bookmark' title='permanent link'><abbr class='published' expr:title='data:post.timestampISO8601' itemprop='datePublished'><data:post.timestamp/></abbr></a>
+                  </b:if>
+                </b:if>
+              </span>
+
+              <span class='post-comment-link'>
+                <b:include cond='data:blog.pageType not in {&quot;item&quot;,&quot;static_page&quot;}                                  and data:post.allowComments' data='post' name='comment_count_picker'/>
+              </span>
+            </div>
+
+            <div class='post-footer-line post-footer-line-2'>
+              <b:if cond='data:top.showMobileShare'>
+                <div class='mobile-link-button goog-inline-block' id='mobile-share-button'>
+                  <a href='javascript:void(0);'><data:shareMsg/></a>
+                </div>
+              </b:if>
+            </div>
+
+          </div>
+        </div>
+
+        <b:include cond='data:blog.pageType in {&quot;static_page&quot;,&quot;item&quot;}' data='post' name='comment_picker'/>
+      </div>
+    </div>
+  </div>
+</b:includable>
+         <b:includable id='nextprev'>
+  <div class='blog-pager' id='blog-pager'>
+    <b:if cond='data:newerPageUrl'>
+      <span id='blog-pager-newer-link'>
+      <a class='blog-pager-newer-link' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-newer-link&quot;' expr:title='data:newerPageTitle'><data:newerPageTitle/></a>
+      </span>
+    </b:if>
+
+    <b:if cond='data:olderPageUrl'>
+      <span id='blog-pager-older-link'>
+      <a class='blog-pager-older-link' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-older-link&quot;' expr:title='data:olderPageTitle'><data:olderPageTitle/></a>
+      </span>
+    </b:if>
+
+    <a class='home-link' expr:href='data:blog.homepageUrl'><data:homeMsg/></a>
+
+    <b:if cond='data:mobileLinkUrl'>
+      <div class='blog-mobile-link'>
+        <a expr:href='data:mobileLinkUrl'><data:mobileLinkMsg/></a>
+      </div>
+    </b:if>
+
+  </div>
+  <div class='clear'/>
+</b:includable>
+         <b:includable id='post' var='post'>
+<b:if cond='data:view.isMultipleItems'>
+
+  <article class='post-box'>
+                
+                <!--text area-->
+                    <h2 class='post-title'>
+                      <a expr:href='data:post.url' expr:title='data:post.title'>
+                        <data:post.title/></a>
+                    </h2>
+             </article>
+            </b:if>
+            
+
+            <b:if cond='data:view.isSingleItem'>
+              <b:if cond='!data:view.isPage'>
+                <script type='application/ld+json'>{&quot;@context&quot;:&quot;https://schema.org&quot;,&quot;@type&quot;:&quot;NewsArticle&quot;,&quot;mainEntityOfPage&quot;:{&quot;@type&quot;:&quot;WebPage&quot;,&quot;@id&quot;:&quot;<data:post.url.canonical.jsonEscaped/>&quot;},&quot;headline&quot;:&quot;<data:post.title.jsonEscaped/>&quot;,&quot;description&quot;:&quot;<data:post.snippets.short.jsonEscaped/>&quot;,&quot;image&quot;:[&quot;<data:post.featuredImage.jsonEscaped/>&quot;],&quot;datePublished&quot;:&quot;<data:post.date.iso8601.jsonEscaped/>&quot;,&quot;dateModified&quot;:&quot;<data:post.lastUpdated.iso8601.jsonEscaped/>&quot;,&quot;author&quot;:{&quot;@type&quot;:&quot;Person&quot;,&quot;name&quot;:&quot;<data:post.author.name.jsonEscaped/>&quot;},&quot;publisher&quot;:{&quot;@type&quot;:&quot;Organization&quot;,&quot;name&quot;:&quot;<data:blog.title/>&quot;,&quot;logo&quot;:{&quot;@type&quot;:&quot;ImageObject&quot;,&quot;url&quot;:&quot;https://lh3.googleusercontent.com/ULB6iBuCeTVvSjjjU1A-O8e9ZpVba6uvyhtiWRti_rBAs9yMYOFBujxriJRZ-A=h60&quot;,&quot;width&quot;:206,&quot;height&quot;:60}}}</script>
+              </b:if>
+              <article class='post-area'>
+                <div class='post-content'>
+                  <b:if cond='data:view.isPage'>
+                    <h2><data:post.title/></h2>
+                  </b:if>
+                  <data:post.body/>
+                </div>
+                <section class='clear'/>
+                
+              </article>
+             </b:if>
+</b:includable>
+         <b:includable id='postQuickEdit' var='post'>
+  <b:if cond='data:post.editUrl'>
+    <span expr:class='&quot;item-control &quot; + data:post.adminClass'>
+      <a expr:href='data:post.editUrl' expr:title='data:top.editPostMsg'>
+        <img alt='' class='icon-action' height='18' src='https://resources.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+      </a>
+    </span>
+  </b:if>
+</b:includable>
+         <b:includable id='shareButtons' var='post'>
+</b:includable>
+         <b:includable id='status-message'>
+  <b:if cond='data:navMessage'>
+  <div class='status-msg-wrap'>
+    <div class='status-msg-body'>
+      <data:navMessage/>
+    </div>
+    <div class='status-msg-border'>
+      <div class='status-msg-bg'>
+        <div class='status-msg-hidden'><data:navMessage/></div>
+      </div>
+    </div>
+  </div>
+  <div style='clear: both;'/>
+  </b:if>
+</b:includable>
+         <b:includable id='threaded-comment-form' var='post'>
+  <div class='comment-form'>
+    <a name='comment-form'/>
+    <b:if cond='data:mobile'>
+      <p><data:blogCommentMessage/></p>
+      <data:blogTeamBlogMessage/>
+      <a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/>
+      <iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' expr:height='data:cmtIframeInitialHeight' frameborder='0' id='comment-editor' name='comment-editor' src='' style='display: none' width='100%'/>
+    <b:else/>
+      <p><data:blogCommentMessage/></p>
+      <data:blogTeamBlogMessage/>
+      <a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/>
+      <iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' expr:height='data:cmtIframeInitialHeight' frameborder='0' id='comment-editor' name='comment-editor' src='' width='100%'/>
+    </b:if>
+    <data:post.cmtfpIframe/>
+    <script type='text/javascript'>
+      BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;);
+    </script>
+  </div>
+</b:includable>
+         <b:includable id='threaded_comment_js' var='post'>
+  <script async='async' expr:src='data:post.commentSrc' type='text/javascript'/>
+
+  <script type='text/javascript'>
+    (function() {
+      var items = <data:post.commentJso/>;
+      var msgs = <data:post.commentMsgs/>;
+      var config = <data:post.commentConfig/>;
+
+// <![CDATA[
+      var cursor = null;
+      if (items && items.length > 0) {
+        cursor = parseInt(items[items.length - 1].timestamp) + 1;
+      }
+
+      var bodyFromEntry = function(entry) {
+        var text = (entry &&
+                    ((entry.content && entry.content.$t) ||
+                     (entry.summary && entry.summary.$t))) ||
+            '';
+        if (entry && entry.gd$extendedProperty) {
+          for (var k in entry.gd$extendedProperty) {
+            if (entry.gd$extendedProperty[k].name == 'blogger.contentRemoved') {
+              return '<span class="deleted-comment">' + text + '</span>';
+            }
+          }
+        }
+        return text;
+      }
+
+      var parse = function(data) {
+        cursor = null;
+        var comments = [];
+        if (data && data.feed && data.feed.entry) {
+          for (var i = 0, entry; entry = data.feed.entry[i]; i++) {
+            var comment = {};
+            // comment ID, parsed out of the original id format
+            var id = /blog-(\d+).post-(\d+)/.exec(entry.id.$t);
+            comment.id = id ? id[2] : null;
+            comment.body = bodyFromEntry(entry);
+            comment.timestamp = Date.parse(entry.published.$t) + '';
+            if (entry.author && entry.author.constructor === Array) {
+              var auth = entry.author[0];
+              if (auth) {
+                comment.author = {
+                  name: (auth.name ? auth.name.$t : undefined),
+                  profileUrl: (auth.uri ? auth.uri.$t : undefined),
+                  avatarUrl: (auth.gd$image ? auth.gd$image.src : undefined)
+                };
+              }
+            }
+            if (entry.link) {
+              if (entry.link[2]) {
+                comment.link = comment.permalink = entry.link[2].href;
+              }
+              if (entry.link[3]) {
+                var pid = /.*comments\/default\/(\d+)\?.*/.exec(entry.link[3].href);
+                if (pid && pid[1]) {
+                  comment.parentId = pid[1];
+                }
+              }
+            }
+            comment.deleteclass = 'item-control blog-admin';
+            if (entry.gd$extendedProperty) {
+              for (var k in entry.gd$extendedProperty) {
+                if (entry.gd$extendedProperty[k].name == 'blogger.itemClass') {
+                  comment.deleteclass += ' ' + entry.gd$extendedProperty[k].value;
+                } else if (entry.gd$extendedProperty[k].name == 'blogger.displayTime') {
+                  comment.displayTime = entry.gd$extendedProperty[k].value;
+                }
+              }
+            }
+            comments.push(comment);
+          }
+        }
+        return comments;
+      };
+
+      var paginator = function(callback) {
+        if (hasMore()) {
+          var url = config.feed + '?alt=json&v=2&orderby=published&reverse=false&max-results=50';
+          if (cursor) {
+            url += '&published-min=' + new Date(cursor).toISOString();
+          }
+          window.bloggercomments = function(data) {
+            var parsed = parse(data);
+            cursor = parsed.length < 50 ? null
+                : parseInt(parsed[parsed.length - 1].timestamp) + 1
+            callback(parsed);
+            window.bloggercomments = null;
+          }
+          url += '&callback=bloggercomments';
+          var script = document.createElement('script');
+          script.type = 'text/javascript';
+          script.src = url;
+          document.getElementsByTagName('head')[0].appendChild(script);
+        }
+      };
+      var hasMore = function() {
+        return !!cursor;
+      };
+      var getMeta = function(key, comment) {
+        if ('iswriter' == key) {
+          var matches = !!comment.author
+              && comment.author.name == config.authorName
+              && comment.author.profileUrl == config.authorUrl;
+          return matches ? 'true' : '';
+        } else if ('deletelink' == key) {
+          return config.baseUri + '/comment/delete/'
+               + config.blogId + '/' + comment.id;
+        } else if ('deleteclass' == key) {
+          return comment.deleteclass;
+        }
+        return '';
+      };
+
+      var replybox = null;
+      var replyUrlParts = null;
+      var replyParent = undefined;
+
+      var onReply = function(commentId, domId) {
+        if (replybox == null) {
+          // lazily cache replybox, and adjust to suit this style:
+          replybox = document.getElementById('comment-editor');
+          if (replybox != null) {
+            replybox.height = '250px';
+            replybox.style.display = 'block';
+            replyUrlParts = replybox.src.split('#');
+          }
+        }
+        if (replybox && (commentId !== replyParent)) {
+          replybox.src = '';
+          document.getElementById(domId).insertBefore(replybox, null);
+          replybox.src = replyUrlParts[0]
+              + (commentId ? '&parentID=' + commentId : '')
+              + '#' + replyUrlParts[1];
+          replyParent = commentId;
+        }
+      };
+
+      var hash = (window.location.hash || '#').substring(1);
+      var startThread, targetComment;
+      if (/^comment-form_/.test(hash)) {
+        startThread = hash.substring('comment-form_'.length);
+      } else if (/^c[0-9]+$/.test(hash)) {
+        targetComment = hash.substring(1);
+      }
+
+      // Configure commenting API:
+      var configJso = {
+        'maxDepth': config.maxThreadDepth
+      };
+      var provider = {
+        'id': config.postId,
+        'data': items,
+        'loadNext': paginator,
+        'hasMore': hasMore,
+        'getMeta': getMeta,
+        'onReply': onReply,
+        'rendered': true,
+        'initComment': targetComment,
+        'initReplyThread': startThread,
+        'config': configJso,
+        'messages': msgs
+      };
+
+      var render = function() {
+        if (window.goog && window.goog.comments) {
+          var holder = document.getElementById('comment-holder');
+          window.goog.comments.render(holder, provider);
+        }
+      };
+
+      // render now, or queue to render when library loads:
+      if (window.goog && window.goog.comments) {
+        render();
+      } else {
+        window.goog = window.goog || {};
+        window.goog.comments = window.goog.comments || {};
+        window.goog.comments.loadQueue = window.goog.comments.loadQueue || [];
+        window.goog.comments.loadQueue.push(render);
+      }
+    })();
+// ]]>
+  </script>
+</b:includable>
+         <b:includable id='threaded_comments' var='post'>
+  <div class='comments' id='comments'>
+    <a name='comments'/>
+    <h4><data:post.commentLabelFull/>:</h4>
+
+    <div class='comments-content'>
+      <b:include cond='data:post.embedCommentForm' data='post' name='threaded_comment_js'/>
+      <div id='comment-holder'>
+         <data:post.commentHtml/>
+      </div>
+    </div>
+
+    <p class='comment-footer'>
+      <b:if cond='data:post.allowNewComments'>
+        <b:include data='post' name='threaded-comment-form'/>
+      <b:else/>
+        <data:post.noNewCommentsText/>
+      </b:if>
+    </p>
+
+    <b:if cond='data:showCmtPopup'>
+      <div id='comment-popup'>
+        <iframe allowtransparency='true' frameborder='0' id='comment-actions' name='comment-actions' scrolling='no'>
+        </iframe>
+      </div>
+    </b:if>
+
+    <div id='backlinks-container'>
+    <div expr:id='data:widget.instanceId + &quot;_backlinks-container&quot;'>
+    </div>
+    </div>
+  </div>
+</b:includable>
+       </b:widget>
+     </b:section>
+     </b:if>
+     
+     <style>
+.site-footer {
+  font-family: &#39;Segoe UI&#39;, sans-serif;
+  color: #444;
+  background: linear-gradient(to right, #fafafa, #f0f0f0);
+  border-top: 1px solid #ddd;
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px 20px;
+}
+
+.footer-col {
+  flex: 1 1 100%;
+  text-align: center;
+}
+
+.footer-col h4 {
+  margin: 0 0 14px 0;
+  font-size: 15px;
+  font-weight: 700;
+  color: #222;
+}
+
+.footer-brand h3 {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+  font-weight: 700;
+  color: #009688;
+}
+
+.footer-brand p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.6;
+  color: #666;
+}
+
+.footer-col ul, .footer-right ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px 16px;
+}
+
+.footer-col ul li a, .footer-right ul li a {
+  color: #555;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-col ul li a:hover, .footer-right ul li a:hover {
+  color: #009688;
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 18px 20px;
+  border-top: 1px solid #e2e2e2;
+  font-size: 13px;
+  color: #777;
+  text-align: center;
+}
+
+.footer-left, .footer-right {
+  flex: 1 1 100%;
+  text-align: center;
+}
+
+.footer-left p {
+  margin: 0;
+}
+
+.footer-left a {
+  color: #009688;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.footer-left a:hover {
+  text-decoration: underline;
+}
+
+/* Desktop Layout */
+@media screen and (min-width: 768px) {
+  .footer-col {
+    flex: 1;
+    text-align: left;
+  }
+
+  .footer-col h4 {
+    text-align: left;
+  }
+
+  .footer-col ul, .footer-right ul {
+    justify-content: flex-start;
+  }
+
+  .footer-bottom {
+    flex-wrap: nowrap;
+    text-align: left;
+  }
+
+  .footer-left, .footer-right {
+    flex: 1;
+    text-align: left;
+  }
+
+  .footer-right ul {
+    justify-content: flex-end;
+  }
+}
+</style>
+
+<footer class='site-footer'>
+  <div class='footer-top'>
+
+    <div class='footer-col footer-brand'>
+      <h3><data:blog.title/></h3>
+      <p><data:blog.description/></p>
+    </div>
+
+    <div class='footer-col'>
+      <h4>Popular Tools</h4>
+      <b:section id='footer-tools'>
+        <b:widget id='LinkList40' locked='false' title='Popular Tools' type='LinkList' version='1'>
+          <b:widget-settings>
+            <b:widget-setting name='link-3'>/p/word-to-pdf.html</b:widget-setting>
+            <b:widget-setting name='sorting'>NONE</b:widget-setting>
+            <b:widget-setting name='link-4'>/p/image-to-pdf.html</b:widget-setting>
+            <b:widget-setting name='text-1'>Compress PDF</b:widget-setting>
+            <b:widget-setting name='link-1'>/p/compress-pdf.html</b:widget-setting>
+            <b:widget-setting name='text-0'>Merge PDF</b:widget-setting>
+            <b:widget-setting name='link-2'>/p/pdf-to-word.html</b:widget-setting>
+            <b:widget-setting name='text-3'>Word to PDF</b:widget-setting>
+            <b:widget-setting name='link-0'>/p/merge-pdf.html</b:widget-setting>
+            <b:widget-setting name='text-2'>PDF to Word</b:widget-setting>
+            <b:widget-setting name='text-4'>Image to PDF</b:widget-setting>
+          </b:widget-settings>
+          <b:includable id='main'>
+            <div class='widget-content'>
+              <ul>
+                <b:loop values='data:links' var='link'>
+                  <li><a expr:href='data:link.target'><data:link.name/></a></li>
+                </b:loop>
+              </ul>
+              <b:include name='quickedit'/>
+            </div>
+          </b:includable>
+        </b:widget>
+      </b:section>
+    </div>
+
+    <div class='footer-col'>
+      <h4>Company</h4>
+      <b:section id='footer-company'>
+        <b:widget id='LinkList41' locked='false' title='Company' type='LinkList' version='1'>
+          <b:widget-settings>
+            <b:widget-setting name='link-3'>#</b:widget-setting>
+            <b:widget-setting name='sorting'>NONE</b:widget-setting>
+            <b:widget-setting name='text-1'>Contact Us</b:widget-setting>
+            <b:widget-setting name='link-1'>#</b:widget-setting>
+            <b:widget-setting name='text-0'>About Us</b:widget-setting>
+            <b:widget-setting name='link-2'>#</b:widget-setting>
+            <b:widget-setting name='text-3'>Terms</b:widget-setting>
+            <b:widget-setting name='link-0'>#</b:widget-setting>
+            <b:widget-setting name='text-2'>Privacy Policy</b:widget-setting>
+          </b:widget-settings>
+          <b:includable id='main'>
+            <div class='widget-content'>
+              <ul>
+                <b:loop values='data:links' var='link'>
+                  <li><a expr:href='data:link.target'><data:link.name/></a></li>
+                </b:loop>
+              </ul>
+              <b:include name='quickedit'/>
+            </div>
+          </b:includable>
+        </b:widget>
+      </b:section>
+    </div>
+
+    <div class='footer-col'>
+      <h4>Pages</h4>
+      <b:section id='footer-links'>
+        <b:widget id='LinkList12' locked='false' title='Pages' type='LinkList' version='1'>
+          <b:includable id='main'>
+            <div class='widget-content'>
+              <ul>
+                <b:loop values='data:links' var='link'>
+                  <li><a expr:href='data:link.target'><data:link.name/></a></li>
+                </b:loop>
+              </ul>
+              <b:include name='quickedit'/>
+            </div>
+          </b:includable>
+        </b:widget>
+      </b:section>
+    </div>
+
+  </div>
+
+  <div class='footer-bottom'>
+    <div class='footer-left'>
+      <p>&#169; <script>document.write(new Date().getFullYear())</script> <data:blog.title/>. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+
+     
+     
+<script>
+function menuon(){
+    document.getElementById(&quot;LinkList3&quot;).style.left = &#39;0&#39;;
+    }
+    
+    function menuoff(){
+    document.getElementById(&quot;LinkList3&quot;).style.left = &#39;-500px&#39;;
+    }
+
+(function($) { 
+  $(function() { 
+    $(&#39;#menu1 li a:not(:only-child)&#39;).click(function(e) {
+      $(this).siblings(&#39;#sub-menu&#39;).toggle();
+      $(&#39;.dropdown&#39;).not($(this).siblings()).hide();
+      e.stopPropagation();
+    });
+    $(&#39;html&#39;).click(function() {
+      $(&#39;#sub-menu&#39;).hide();
+    });
+  }); 
+})(jQuery);
+    
+    
+$(&quot;.header-main&quot;).attr(&#39;style&#39;, &#39;visibility: visible;&#39;);
+
+</script>
+     
+     <script>
+document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
+  // Two kinds of Blogger sections are filterable from the pills above:
+  //   1. .pdf-tool-category sections, id=&quot;pdf-cat-{filter}&quot; (Link List
+  //      widgets, cards are &lt;li&gt;&lt;a class=&quot;tool-box&quot;&gt;).
+  //   2. .tool-dir-category sections, id=&quot;tools-cat-{filter}&quot; (HTML widgets
+  //      -- Encoding &amp; Decoding, Torrent &amp; Hashing, Data Conversion
+  //      &amp; Formatting, Generators, Website &amp; SEO, Ai Generators,
+  //      Trending Tools -- cards are &lt;a class=&quot;tool-dir-card&quot;&gt;).
+  // To add a new filterable category from Blogger Layout, give the new
+  // section a class of either &quot;pdf-tool-category&quot; or &quot;tool-dir-category&quot;
+  // and an id of &quot;pdf-cat-{filter}&quot; / &quot;tools-cat-{filter}&quot; that matches a
+  // data-filter value on a new pill button. The search box filters
+  // individual tool cards by name across whichever category (or all of
+  // them) is currently selected.
+  const filterButtons = document.querySelectorAll(&#39;.filter-btn&#39;);
+  const categorySections = document.querySelectorAll(&#39;.pdf-tool-category, .tool-dir-category&#39;);
+  const searchInput = document.getElementById(&#39;pdf-tool-search&#39;);
+  const noResultsMsg = document.getElementById(&#39;pdf-tool-no-results&#39;);
+  let activeFilter = &#39;all&#39;;
+
+  function sectionMatchesFilter(section, filter) {
+    if (filter === &#39;all&#39;) { return true; }
+    return section.id === &#39;pdf-cat-&#39; + filter || section.id === &#39;tools-cat-&#39; + filter;
+  }
+
+  function applyFilters() {
+    const query = searchInput ? searchInput.value.trim().toLowerCase() : &#39;&#39;;
+    let anyVisible = false;
+
+    categorySections.forEach(section =&gt; {
+      const categoryMatches = sectionMatchesFilter(section, activeFilter);
+      const cards = section.querySelectorAll(&#39;li, a.tool-dir-card&#39;);
+      let sectionHasVisibleCard = false;
+
+      cards.forEach(card =&gt; {
+        const nameEl = card.querySelector(&#39;h3&#39;);
+        const name = nameEl ? nameEl.textContent.trim().toLowerCase() : &#39;&#39;;
+        const textMatches = query === &#39;&#39; || name.indexOf(query) !== -1;
+
+        if (textMatches) {
+          card.classList.remove(&#39;tool-box-hidden&#39;);
+          sectionHasVisibleCard = true;
+        } else {
+          card.classList.add(&#39;tool-box-hidden&#39;);
+        }
+      });
+
+      // While searching, show any category that has a match, regardless of
+      // the active pill, so results aren&#39;t hidden behind the wrong filter.
+      const shouldShowSection = query !== &#39;&#39; ? sectionHasVisibleCard : categoryMatches;
+      section.style.display = shouldShowSection ? &#39;&#39; : &#39;none&#39;;
+
+      if (shouldShowSection) {
+        anyVisible = true;
+      }
+    });
+
+    if (noResultsMsg) {
+      noResultsMsg.classList.toggle(&#39;show&#39;, !anyVisible);
+    }
+  }
+
+  filterButtons.forEach(button =&gt; {
+    button.addEventListener(&#39;click&#39;, function() {
+      filterButtons.forEach(btn =&gt; btn.classList.remove(&#39;active&#39;));
+      this.classList.add(&#39;active&#39;);
+      activeFilter = this.getAttribute(&#39;data-filter&#39;);
+      applyFilters();
+    });
+  });
+
+  if (searchInput) {
+    searchInput.addEventListener(&#39;input&#39;, applyFilters);
+  }
+
+  applyFilters();
+});
+</script>
+     
+  </body>
+</html>
